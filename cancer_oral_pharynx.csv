@@ -1,0 +1,573 @@
+"","Year","Area","Cancer.Type","Age.Adjusted.Rate","Case.Count","Population"
+"157",2002,"Alabama","Oral Cavity and Pharynx","11.9","565",4480089
+"158",2002,"Alaska","Oral Cavity and Pharynx","9.9","50",642337
+"159",2002,"Arizona","Oral Cavity and Pharynx","8.9","482",5396255
+"160",2002,"Arkansas","Oral Cavity and Pharynx","11.5","333",2705927
+"161",2002,"California","Oral Cavity and Pharynx","10.3","3252",34871843
+"162",2002,"Colorado","Oral Cavity and Pharynx","9.7","391",4490406
+"163",2002,"Connecticut","Oral Cavity and Pharynx","10.2","381",3458749
+"164",2002,"Delaware","Oral Cavity and Pharynx","10.8","92",806169
+"165",2002,"District of Columbia","Oral Cavity and Pharynx","14.1","80",573158
+"166",2002,"Florida","Oral Cavity and Pharynx","13.7","2729",16689370
+"167",2002,"Georgia","Oral Cavity and Pharynx","12.1","916",8508256
+"168",2002,"Hawaii","Oral Cavity and Pharynx","11.5","152",1239613
+"169",2002,"Idaho","Oral Cavity and Pharynx","10.4","131",1340372
+"170",2002,"Illinois","Oral Cavity and Pharynx","11","1353",12525556
+"171",2002,"Indiana","Oral Cavity and Pharynx","11.1","688",6155967
+"172",2002,"Iowa","Oral Cavity and Pharynx","11.4","369",2934234
+"173",2002,"Kansas","Oral Cavity and Pharynx","10.4","286",2713535
+"174",2002,"Kentucky","Oral Cavity and Pharynx","12","509",4089875
+"175",2002,"Louisiana","Oral Cavity and Pharynx","12.2","536",4497267
+"176",2002,"Maine","Oral Cavity and Pharynx","12.5","186",1295960
+"177",2002,"Maryland","Oral Cavity and Pharynx","10.1","550",5440389
+"178",2002,"Massachusetts","Oral Cavity and Pharynx","11.3","762",6417206
+"179",2002,"Michigan","Oral Cavity and Pharynx","11.7","1188",10015710
+"180",2002,"Minnesota","Oral Cavity and Pharynx","11","550",5018935
+"181",2002,"Mississippi","Oral Cavity and Pharynx","Data Suppressed","Data Suppressed",NA
+"182",2002,"Missouri","Oral Cavity and Pharynx","10.8","646",5674825
+"183",2002,"Montana","Oral Cavity and Pharynx","12.2","121",911667
+"184",2002,"Nebraska","Oral Cavity and Pharynx","11.3","202",1728292
+"185",2002,"Nevada","Oral Cavity and Pharynx","10.7","232",2173791
+"186",2002,"New Hampshire","Oral Cavity and Pharynx","10.9","143",1269089
+"187",2002,"New Jersey","Oral Cavity and Pharynx","9.9","891",8552643
+"188",2002,"New Mexico","Oral Cavity and Pharynx","10","184",1855309
+"189",2002,"New York","Oral Cavity and Pharynx","10","1981",19137800
+"190",2002,"North Carolina","Oral Cavity and Pharynx","10.7","900",8326201
+"191",2002,"North Dakota","Oral Cavity and Pharynx","14","98",638168
+"192",2002,"Ohio","Oral Cavity and Pharynx","9.1","1100",11407889
+"193",2002,"Oklahoma","Oral Cavity and Pharynx","10.9","397",3489080
+"194",2002,"Oregon","Oral Cavity and Pharynx","10.8","398",3513424
+"195",2002,"Pennsylvania","Oral Cavity and Pharynx","10.2","1425",12331031
+"196",2002,"Rhode Island","Oral Cavity and Pharynx","9.7","111",1065995
+"197",2002,"South Carolina","Oral Cavity and Pharynx","12.8","544",4107795
+"198",2002,"South Dakota","Oral Cavity and Pharynx","12.5","100",760020
+"199",2002,"Tennessee","Oral Cavity and Pharynx","10","601",5795918
+"200",2002,"Texas","Oral Cavity and Pharynx","10.9","2045",21690325
+"201",2002,"United States","Oral Cavity and Pharynx","10.8","31090",284766512
+"202",2002,"Utah","Oral Cavity and Pharynx","9.3","162",2324815
+"203",2002,"Vermont","Oral Cavity and Pharynx","9.7","66",615442
+"204",2002,"Virginia","Oral Cavity and Pharynx","9.8","703",7286873
+"205",2002,"Washington","Oral Cavity and Pharynx","11.1","654",6052349
+"206",2002,"West Virginia","Oral Cavity and Pharynx","10.6","224",1805414
+"207",2002,"Wisconsin","Oral Cavity and Pharynx","10.4","584",5445162
+"208",2002,"Wyoming","Oral Cavity and Pharynx","9.4","47",500017
+"209",2003,"Alabama","Oral Cavity and Pharynx","11.9","570",4503491
+"210",2003,"Alaska","Oral Cavity and Pharynx","11.2","53",648414
+"211",2003,"Arizona","Oral Cavity and Pharynx","9.2","515",5510364
+"212",2003,"Arkansas","Oral Cavity and Pharynx","11.4","335",2724816
+"213",2003,"California","Oral Cavity and Pharynx","10.1","3289",35253159
+"214",2003,"Colorado","Oral Cavity and Pharynx","8.8","363",4528732
+"215",2003,"Connecticut","Oral Cavity and Pharynx","10.2","391",3484336
+"216",2003,"Delaware","Oral Cavity and Pharynx","10.5","91",818003
+"217",2003,"District of Columbia","Oral Cavity and Pharynx","14.9","84",568502
+"218",2003,"Florida","Oral Cavity and Pharynx","14.2","2879",17004085
+"219",2003,"Georgia","Oral Cavity and Pharynx","12.8","994",8622793
+"220",2003,"Hawaii","Oral Cavity and Pharynx","10.8","145",1251154
+"221",2003,"Idaho","Oral Cavity and Pharynx","11.3","148",1363380
+"222",2003,"Illinois","Oral Cavity and Pharynx","10.7","1334",12556006
+"223",2003,"Indiana","Oral Cavity and Pharynx","10.3","654",6196638
+"224",2003,"Iowa","Oral Cavity and Pharynx","10.4","342",2941999
+"225",2003,"Kansas","Oral Cavity and Pharynx","10.5","294",2723004
+"226",2003,"Kentucky","Oral Cavity and Pharynx","11.9","514",4117170
+"227",2003,"Louisiana","Oral Cavity and Pharynx","12","536",4521042
+"228",2003,"Maine","Oral Cavity and Pharynx","12.8","195",1306513
+"229",2003,"Maryland","Oral Cavity and Pharynx","11.7","651",5496269
+"230",2003,"Massachusetts","Oral Cavity and Pharynx","11.4","782",6422565
+"231",2003,"Michigan","Oral Cavity and Pharynx","11","1139",10041152
+"232",2003,"Minnesota","Oral Cavity and Pharynx","9.9","505",5053572
+"233",2003,"Mississippi","Oral Cavity and Pharynx","12.6","362",2868312
+"234",2003,"Missouri","Oral Cavity and Pharynx","11.7","706",5709403
+"235",2003,"Montana","Oral Cavity and Pharynx","9.9","101",919630
+"236",2003,"Nebraska","Oral Cavity and Pharynx","10.2","184",1738643
+"237",2003,"Nevada","Oral Cavity and Pharynx","11.1","252",2248850
+"238",2003,"New Hampshire","Oral Cavity and Pharynx","12.6","169",1279840
+"239",2003,"New Jersey","Oral Cavity and Pharynx","9.7","884",8601402
+"240",2003,"New Mexico","Oral Cavity and Pharynx","8.8","166",1877574
+"241",2003,"New York","Oral Cavity and Pharynx","9.7","1955",19175939
+"242",2003,"North Carolina","Oral Cavity and Pharynx","11.5","996",8422501
+"243",2003,"North Dakota","Oral Cavity and Pharynx","9.5","69",638817
+"244",2003,"Ohio","Oral Cavity and Pharynx","9.7","1185",11434788
+"245",2003,"Oklahoma","Oral Cavity and Pharynx","12.9","473",3504892
+"246",2003,"Oregon","Oral Cavity and Pharynx","10.8","411",3547376
+"247",2003,"Pennsylvania","Oral Cavity and Pharynx","10.4","1475",12374658
+"248",2003,"Rhode Island","Oral Cavity and Pharynx","9.5","110",1071342
+"249",2003,"South Carolina","Oral Cavity and Pharynx","10.6","462",4150297
+"250",2003,"South Dakota","Oral Cavity and Pharynx","9.5","78",763729
+"251",2003,"Tennessee","Oral Cavity and Pharynx","10.5","648",5847812
+"252",2003,"Texas","Oral Cavity and Pharynx","11.1","2156",22030931
+"253",2003,"United States","Oral Cavity and Pharynx","10.9","32194",290107933
+"254",2003,"Utah","Oral Cavity and Pharynx","7.5","135",2360137
+"255",2003,"Vermont","Oral Cavity and Pharynx","9.4","64",617858
+"256",2003,"Virginia","Oral Cavity and Pharynx","10.4","760",7366977
+"257",2003,"Washington","Oral Cavity and Pharynx","10.6","643",6104115
+"258",2003,"West Virginia","Oral Cavity and Pharynx","11","240",1812295
+"259",2003,"Wisconsin","Oral Cavity and Pharynx","11.5","657",5479203
+"260",2003,"Wyoming","Oral Cavity and Pharynx","9.4","50",503453
+"261",2004,"Alabama","Oral Cavity and Pharynx","11.9","579",4530729
+"262",2004,"Alaska","Oral Cavity and Pharynx","11","58",659286
+"263",2004,"Arizona","Oral Cavity and Pharynx","9.5","553",5652404
+"264",2004,"Arkansas","Oral Cavity and Pharynx","11.1","332",2749686
+"265",2004,"California","Oral Cavity and Pharynx","10.2","3386",35574576
+"266",2004,"Colorado","Oral Cavity and Pharynx","9.3","391",4575013
+"267",2004,"Connecticut","Oral Cavity and Pharynx","9.8","379",3496094
+"268",2004,"Delaware","Oral Cavity and Pharynx","11.3","101",830803
+"269",2004,"District of Columbia","Oral Cavity and Pharynx","12.2","69",567754
+"270",2004,"Florida","Oral Cavity and Pharynx","13.4","2801",17415318
+"271",2004,"Georgia","Oral Cavity and Pharynx","11.4","916",8769252
+"272",2004,"Hawaii","Oral Cavity and Pharynx","11","150",1273569
+"273",2004,"Idaho","Oral Cavity and Pharynx","10.8","149",1391802
+"274",2004,"Illinois","Oral Cavity and Pharynx","11.3","1434",12589773
+"275",2004,"Indiana","Oral Cavity and Pharynx","10.1","653",6233007
+"276",2004,"Iowa","Oral Cavity and Pharynx","11.5","382",2953635
+"277",2004,"Kansas","Oral Cavity and Pharynx","10.7","307",2734373
+"278",2004,"Kentucky","Oral Cavity and Pharynx","11.9","520",4146101
+"279",2004,"Louisiana","Oral Cavity and Pharynx","12.9","583",4552238
+"280",2004,"Maine","Oral Cavity and Pharynx","12.2","188",1313688
+"281",2004,"Maryland","Oral Cavity and Pharynx","9.3","528",5546935
+"282",2004,"Massachusetts","Oral Cavity and Pharynx","10.8","747",6412281
+"283",2004,"Michigan","Oral Cavity and Pharynx","10.4","1100",10055315
+"284",2004,"Minnesota","Oral Cavity and Pharynx","11","569",5087713
+"285",2004,"Mississippi","Oral Cavity and Pharynx","11.8","345",2889010
+"286",2004,"Missouri","Oral Cavity and Pharynx","10.4","638",5747741
+"287",2004,"Montana","Oral Cavity and Pharynx","11.3","120",930009
+"288",2004,"Nebraska","Oral Cavity and Pharynx","10.3","188",1749370
+"289",2004,"Nevada","Oral Cavity and Pharynx","10.3","237",2346222
+"290",2004,"New Hampshire","Oral Cavity and Pharynx","10.1","141",1290121
+"291",2004,"New Jersey","Oral Cavity and Pharynx","10.1","932",8634561
+"292",2004,"New Mexico","Oral Cavity and Pharynx","10.1","196",1903808
+"293",2004,"New York","Oral Cavity and Pharynx","10.1","2055",19171567
+"294",2004,"North Carolina","Oral Cavity and Pharynx","12.1","1070",8553152
+"295",2004,"North Dakota","Oral Cavity and Pharynx","10.9","78",644705
+"296",2004,"Ohio","Oral Cavity and Pharynx","10","1239",11452251
+"297",2004,"Oklahoma","Oral Cavity and Pharynx","11.6","436",3525233
+"298",2004,"Oregon","Oral Cavity and Pharynx","10.9","427",3569463
+"299",2004,"Pennsylvania","Oral Cavity and Pharynx","10","1435",12410722
+"300",2004,"Rhode Island","Oral Cavity and Pharynx","10","116",1074579
+"301",2004,"South Carolina","Oral Cavity and Pharynx","12.5","566",4210921
+"302",2004,"South Dakota","Oral Cavity and Pharynx","11.7","98",770396
+"303",2004,"Tennessee","Oral Cavity and Pharynx","10.7","675",5910809
+"304",2004,"Texas","Oral Cavity and Pharynx","10.6","2120",22394023
+"305",2004,"United States","Oral Cavity and Pharynx","10.8","32626",292805298
+"306",2004,"Utah","Oral Cavity and Pharynx","8.7","158",2401580
+"307",2004,"Vermont","Oral Cavity and Pharynx","11.2","78",619920
+"308",2004,"Virginia","Oral Cavity and Pharynx","9.8","738",7475575
+"309",2004,"Washington","Oral Cavity and Pharynx","11.8","730",6178645
+"310",2004,"West Virginia","Oral Cavity and Pharynx","10.3","225",1816438
+"311",2004,"Wisconsin","Oral Cavity and Pharynx","11","642",5514026
+"312",2004,"Wyoming","Oral Cavity and Pharynx","13.1","68",509106
+"313",2005,"Alabama","Oral Cavity and Pharynx","13.1","649",4565917
+"314",2005,"Alaska","Oral Cavity and Pharynx","10.6","59",666946
+"315",2005,"Arizona","Oral Cavity and Pharynx","9.6","579",5839077
+"316",2005,"Arkansas","Oral Cavity and Pharynx","11.4","346",2781097
+"317",2005,"California","Oral Cavity and Pharynx","10.3","3465",35827943
+"318",2005,"Colorado","Oral Cavity and Pharynx","9.6","428",4631888
+"319",2005,"Connecticut","Oral Cavity and Pharynx","10.3","406",3506956
+"320",2005,"Delaware","Oral Cavity and Pharynx","11.8","112",845150
+"321",2005,"District of Columbia","Oral Cavity and Pharynx","15.2","84",567136
+"322",2005,"Florida","Oral Cavity and Pharynx","13.2","2845",17842038
+"323",2005,"Georgia","Oral Cavity and Pharynx","11","913",8925922
+"324",2005,"Hawaii","Oral Cavity and Pharynx","12","172",1292729
+"325",2005,"Idaho","Oral Cavity and Pharynx","11.5","163",1428241
+"326",2005,"Illinois","Oral Cavity and Pharynx","10.5","1344",12609903
+"327",2005,"Indiana","Oral Cavity and Pharynx","10.7","700",6278616
+"328",2005,"Iowa","Oral Cavity and Pharynx","11.8","398",2964454
+"329",2005,"Kansas","Oral Cavity and Pharynx","10.3","296",2745299
+"330",2005,"Kentucky","Oral Cavity and Pharynx","12.4","557",4182742
+"331",2005,"Louisiana","Oral Cavity and Pharynx","11.3","513",4411396
+"332",2005,"Maine","Oral Cavity and Pharynx","10.5","168",1318787
+"333",2005,"Maryland","Oral Cavity and Pharynx","8.9","516",5592379
+"334",2005,"Massachusetts","Oral Cavity and Pharynx","10.8","754",6403290
+"335",2005,"Michigan","Oral Cavity and Pharynx","11.2","1187",10051137
+"336",2005,"Minnesota","Oral Cavity and Pharynx","11","578",5119598
+"337",2005,"Mississippi","Oral Cavity and Pharynx","12.7","374",2876229
+"338",2005,"Missouri","Oral Cavity and Pharynx","11.5","725",5790300
+"339",2005,"Montana","Oral Cavity and Pharynx","10.2","112",940102
+"340",2005,"Nebraska","Oral Cavity and Pharynx","10.5","196",1761497
+"341",2005,"Nevada","Oral Cavity and Pharynx","11.7","286",2432143
+"342",2005,"New Hampshire","Oral Cavity and Pharynx","11.8","168",1298492
+"343",2005,"New Jersey","Oral Cavity and Pharynx","9.6","894",8651974
+"344",2005,"New Mexico","Oral Cavity and Pharynx","8.9","181",1932274
+"345",2005,"New York","Oral Cavity and Pharynx","9.6","1980",19132610
+"346",2005,"North Carolina","Oral Cavity and Pharynx","11.6","1056",8705407
+"347",2005,"North Dakota","Oral Cavity and Pharynx","10.1","72",646089
+"348",2005,"Ohio","Oral Cavity and Pharynx","10.2","1276",11463320
+"349",2005,"Oklahoma","Oral Cavity and Pharynx","11.8","448",3548597
+"350",2005,"Oregon","Oral Cavity and Pharynx","10","397",3613202
+"351",2005,"Pennsylvania","Oral Cavity and Pharynx","10.3","1489",12449990
+"352",2005,"Rhode Island","Oral Cavity and Pharynx","10.1","116",1067916
+"353",2005,"South Carolina","Oral Cavity and Pharynx","13.1","594",4270150
+"354",2005,"South Dakota","Oral Cavity and Pharynx","9.2","80",775493
+"355",2005,"Tennessee","Oral Cavity and Pharynx","11.4","730",5991057
+"356",2005,"Texas","Oral Cavity and Pharynx","10.3","2122",22773020
+"357",2005,"United States","Oral Cavity and Pharynx","10.8","33209",295516599
+"358",2005,"Utah","Oral Cavity and Pharynx","8.6","165",2457719
+"359",2005,"Vermont","Oral Cavity and Pharynx","10.6","75",621215
+"360",2005,"Virginia","Oral Cavity and Pharynx","10.3","796",7577105
+"361",2005,"Washington","Oral Cavity and Pharynx","10.9","702",6257305
+"362",2005,"West Virginia","Oral Cavity and Pharynx","11.5","255",1820492
+"363",2005,"Wisconsin","Oral Cavity and Pharynx","10.7","638",5546166
+"364",2005,"Wyoming","Oral Cavity and Pharynx","8.8","50",514157
+"365",2006,"Alabama","Oral Cavity and Pharynx","14.1","717",4628981
+"366",2006,"Alaska","Oral Cavity and Pharynx","11.3","60",675302
+"367",2006,"Arizona","Oral Cavity and Pharynx","9","561",6029141
+"368",2006,"Arkansas","Oral Cavity and Pharynx","11.3","356",2821761
+"369",2006,"California","Oral Cavity and Pharynx","10.2","3522",36021202
+"370",2006,"Colorado","Oral Cavity and Pharynx","9.6","437",4720423
+"371",2006,"Connecticut","Oral Cavity and Pharynx","11","436",3517460
+"372",2006,"Delaware","Oral Cavity and Pharynx","10","94",859268
+"373",2006,"District of Columbia","Oral Cavity and Pharynx","16.2","91",570681
+"374",2006,"Florida","Oral Cavity and Pharynx","13.7","3019",18166990
+"375",2006,"Georgia","Oral Cavity and Pharynx","10.8","933",9155813
+"376",2006,"Hawaii","Oral Cavity and Pharynx","12.1","175",1309731
+"377",2006,"Idaho","Oral Cavity and Pharynx","10.7","156",1468669
+"378",2006,"Illinois","Oral Cavity and Pharynx","10.8","1402",12643955
+"379",2006,"Indiana","Oral Cavity and Pharynx","11","730",6332669
+"380",2006,"Iowa","Oral Cavity and Pharynx","12.1","409",2982644
+"381",2006,"Kansas","Oral Cavity and Pharynx","10","293",2762931
+"382",2006,"Kentucky","Oral Cavity and Pharynx","12.4","566",4219239
+"383",2006,"Louisiana","Oral Cavity and Pharynx","11.5","517",4302665
+"384",2006,"Maine","Oral Cavity and Pharynx","12.2","198",1323619
+"385",2006,"Maryland","Oral Cavity and Pharynx","9.3","542",5627367
+"386",2006,"Massachusetts","Oral Cavity and Pharynx","11.5","814",6410084
+"387",2006,"Michigan","Oral Cavity and Pharynx","11.6","1265",10036081
+"388",2006,"Minnesota","Oral Cavity and Pharynx","11.2","601",5163555
+"389",2006,"Mississippi","Oral Cavity and Pharynx","13","391",2904978
+"390",2006,"Missouri","Oral Cavity and Pharynx","10.5","675",5842704
+"391",2006,"Montana","Oral Cavity and Pharynx","11.6","126",952692
+"392",2006,"Nebraska","Oral Cavity and Pharynx","11","210",1772693
+"393",2006,"Nevada","Oral Cavity and Pharynx","10.6","266",2522658
+"394",2006,"New Hampshire","Oral Cavity and Pharynx","9.7","142",1308389
+"395",2006,"New Jersey","Oral Cavity and Pharynx","10.7","1010",8661679
+"396",2006,"New Mexico","Oral Cavity and Pharynx","9.1","189",1962137
+"397",2006,"New York","Oral Cavity and Pharynx","10","2077",19104631
+"398",2006,"North Carolina","Oral Cavity and Pharynx","10.7","1016",8917270
+"399",2006,"North Dakota","Oral Cavity and Pharynx","10.9","81",649422
+"400",2006,"Ohio","Oral Cavity and Pharynx","10","1265",11481213
+"401",2006,"Oklahoma","Oral Cavity and Pharynx","13.2","508",3594090
+"402",2006,"Oregon","Oral Cavity and Pharynx","10.6","433",3670883
+"403",2006,"Pennsylvania","Oral Cavity and Pharynx","10.6","1571",12510809
+"404",2006,"Rhode Island","Oral Cavity and Pharynx","11.1","129",1063096
+"405",2006,"South Carolina","Oral Cavity and Pharynx","11.4","544",4357847
+"406",2006,"South Dakota","Oral Cavity and Pharynx","9.2","81",783033
+"407",2006,"Tennessee","Oral Cavity and Pharynx","11.5","764",6088766
+"408",2006,"Texas","Oral Cavity and Pharynx","10.4","2214",23359580
+"409",2006,"United States","Oral Cavity and Pharynx","10.9","34285",298379912
+"410",2006,"Utah","Oral Cavity and Pharynx","7.3","146",2525507
+"411",2006,"Vermont","Oral Cavity and Pharynx","13.7","101",622892
+"412",2006,"Virginia","Oral Cavity and Pharynx","9.9","792",7673725
+"413",2006,"Washington","Oral Cavity and Pharynx","10.9","726",6370753
+"414",2006,"West Virginia","Oral Cavity and Pharynx","10.6","235",1827912
+"415",2006,"Wisconsin","Oral Cavity and Pharynx","10.6","646",5577655
+"416",2006,"Wyoming","Oral Cavity and Pharynx","9.1","53",522667
+"417",2007,"Alabama","Oral Cavity and Pharynx","12.5","656",4672840
+"418",2007,"Alaska","Oral Cavity and Pharynx","11.3","67",680300
+"419",2007,"Arizona","Oral Cavity and Pharynx","9.4","610",6167681
+"420",2007,"Arkansas","Oral Cavity and Pharynx","11.9","383",2848650
+"421",2007,"California","Oral Cavity and Pharynx","10.4","3648",36250311
+"422",2007,"Colorado","Oral Cavity and Pharynx","10","472",4803868
+"423",2007,"Connecticut","Oral Cavity and Pharynx","10.5","421",3527270
+"424",2007,"Delaware","Oral Cavity and Pharynx","11.9","119",871749
+"425",2007,"District of Columbia","Oral Cavity and Pharynx","12.2","69",574404
+"426",2007,"Florida","Oral Cavity and Pharynx","13.6","3088",18367842
+"427",2007,"Georgia","Oral Cavity and Pharynx","12","1072",9349988
+"428",2007,"Hawaii","Oral Cavity and Pharynx","11","164",1315675
+"429",2007,"Idaho","Oral Cavity and Pharynx","11.2","169",1505105
+"430",2007,"Illinois","Oral Cavity and Pharynx","11.5","1521",12695866
+"431",2007,"Indiana","Oral Cavity and Pharynx","11.8","808",6379599
+"432",2007,"Iowa","Oral Cavity and Pharynx","10.7","366",2999212
+"433",2007,"Kansas","Oral Cavity and Pharynx","11.3","341",2783785
+"434",2007,"Kentucky","Oral Cavity and Pharynx","13","610",4256672
+"435",2007,"Louisiana","Oral Cavity and Pharynx","12.1","562",4375581
+"436",2007,"Maine","Oral Cavity and Pharynx","12","196",1327040
+"437",2007,"Maryland","Oral Cavity and Pharynx","10.1","601",5653408
+"438",2007,"Massachusetts","Oral Cavity and Pharynx","11.2","806",6431559
+"439",2007,"Michigan","Oral Cavity and Pharynx","11","1206",10001284
+"440",2007,"Minnesota","Oral Cavity and Pharynx","12.1","664",5207203
+"441",2007,"Mississippi","Oral Cavity and Pharynx","13","399",2928350
+"442",2007,"Missouri","Oral Cavity and Pharynx","12.1","791",5887612
+"443",2007,"Montana","Oral Cavity and Pharynx","10.7","123",964706
+"444",2007,"Nebraska","Oral Cavity and Pharynx","11.4","222",1783440
+"445",2007,"Nevada","Oral Cavity and Pharynx","10.2","272",2601072
+"446",2007,"New Hampshire","Oral Cavity and Pharynx","10.5","156",1312540
+"447",2007,"New Jersey","Oral Cavity and Pharynx","10","964",8677885
+"448",2007,"New Mexico","Oral Cavity and Pharynx","10.4","222",1990070
+"449",2007,"New York","Oral Cavity and Pharynx","10.7","2236",19132335
+"450",2007,"North Carolina","Oral Cavity and Pharynx","11.6","1142",9118037
+"451",2007,"North Dakota","Oral Cavity and Pharynx","8.6","63",652822
+"452",2007,"Ohio","Oral Cavity and Pharynx","10","1292",11500468
+"453",2007,"Oklahoma","Oral Cavity and Pharynx","11.5","453",3634349
+"454",2007,"Oregon","Oral Cavity and Pharynx","11","457",3722417
+"455",2007,"Pennsylvania","Oral Cavity and Pharynx","11","1639",12563937
+"456",2007,"Rhode Island","Oral Cavity and Pharynx","11.1","135",1057315
+"457",2007,"South Carolina","Oral Cavity and Pharynx","12.7","624",4444110
+"458",2007,"South Dakota","Oral Cavity and Pharynx","9.6","86",791623
+"459",2007,"Tennessee","Oral Cavity and Pharynx","11.3","762",6175727
+"460",2007,"Texas","Oral Cavity and Pharynx","10.5","2333",23831983
+"461",2007,"United States","Oral Cavity and Pharynx","11.2","35938",301231207
+"462",2007,"Utah","Oral Cavity and Pharynx","7.7","158",2597746
+"463",2007,"Vermont","Oral Cavity and Pharynx","11.7","88",623481
+"464",2007,"Virginia","Oral Cavity and Pharynx","11.7","946",7751000
+"465",2007,"Washington","Oral Cavity and Pharynx","11.2","768",6461587
+"466",2007,"West Virginia","Oral Cavity and Pharynx","12","275",1834052
+"467",2007,"Wisconsin","Oral Cavity and Pharynx","10.6","656",5610775
+"468",2007,"Wyoming","Oral Cavity and Pharynx","10","57",534876
+"469",2008,"Alabama","Oral Cavity and Pharynx","13.2","699",4718206
+"470",2008,"Alaska","Oral Cavity and Pharynx","10.1","65",687455
+"471",2008,"Arizona","Oral Cavity and Pharynx","9.5","634",6280362
+"472",2008,"Arkansas","Oral Cavity and Pharynx","12.8","415",2874554
+"473",2008,"California","Oral Cavity and Pharynx","10.8","3866",36604337
+"474",2008,"Colorado","Oral Cavity and Pharynx","10.1","499",4889730
+"475",2008,"Connecticut","Oral Cavity and Pharynx","10.7","448",3545579
+"476",2008,"Delaware","Oral Cavity and Pharynx","12.3","125",883874
+"477",2008,"District of Columbia","Oral Cavity and Pharynx","13.5","78",580236
+"478",2008,"Florida","Oral Cavity and Pharynx","14.2","3294",18527305
+"479",2008,"Georgia","Oral Cavity and Pharynx","11.2","1035",9504843
+"480",2008,"Hawaii","Oral Cavity and Pharynx","12.8","195",1332213
+"481",2008,"Idaho","Oral Cavity and Pharynx","11.1","175",1534320
+"482",2008,"Illinois","Oral Cavity and Pharynx","11.7","1584",12747038
+"483",2008,"Indiana","Oral Cavity and Pharynx","11.8","818",6424806
+"484",2008,"Iowa","Oral Cavity and Pharynx","11.2","391",3016734
+"485",2008,"Kansas","Oral Cavity and Pharynx","10.9","334",2808076
+"486",2008,"Kentucky","Oral Cavity and Pharynx","13.4","639",4289878
+"487",2008,"Louisiana","Oral Cavity and Pharynx","12.5","596",4435586
+"488",2008,"Maine","Oral Cavity and Pharynx","11.7","197",1330509
+"489",2008,"Maryland","Oral Cavity and Pharynx","10.3","627",5684965
+"490",2008,"Massachusetts","Oral Cavity and Pharynx","11.5","852",6468967
+"491",2008,"Michigan","Oral Cavity and Pharynx","11.4","1280",9946889
+"492",2008,"Minnesota","Oral Cavity and Pharynx","10.5","602",5247018
+"493",2008,"Mississippi","Oral Cavity and Pharynx","13","407",2947806
+"494",2008,"Missouri","Oral Cavity and Pharynx","12","799",5923916
+"495",2008,"Montana","Oral Cavity and Pharynx","12","138",976415
+"496",2008,"Nebraska","Oral Cavity and Pharynx","12.4","241",1796378
+"497",2008,"Nevada","Oral Cavity and Pharynx","10.4","283",2653630
+"498",2008,"New Hampshire","Oral Cavity and Pharynx","10.6","159",1315906
+"499",2008,"New Jersey","Oral Cavity and Pharynx","10","970",8711090
+"500",2008,"New Mexico","Oral Cavity and Pharynx","9.3","205",2010662
+"501",2008,"New York","Oral Cavity and Pharynx","10.4","2211",19212436
+"502",2008,"North Carolina","Oral Cavity and Pharynx","12.5","1263",9309449
+"503",2008,"North Dakota","Oral Cavity and Pharynx","10.9","82",657569
+"504",2008,"Ohio","Oral Cavity and Pharynx","11.1","1477",11515391
+"505",2008,"Oklahoma","Oral Cavity and Pharynx","13.7","553",3668976
+"506",2008,"Oregon","Oral Cavity and Pharynx","10.6","460",3768748
+"507",2008,"Pennsylvania","Oral Cavity and Pharynx","11.3","1708",12612285
+"508",2008,"Rhode Island","Oral Cavity and Pharynx","10.9","130",1055003
+"509",2008,"South Carolina","Oral Cavity and Pharynx","11.7","595",4528996
+"510",2008,"South Dakota","Oral Cavity and Pharynx","10.6","96",799124
+"511",2008,"Tennessee","Oral Cavity and Pharynx","11.8","828",6247411
+"512",2008,"Texas","Oral Cavity and Pharynx","10.9","2490",24309039
+"513",2008,"United States","Oral Cavity and Pharynx","11.4","37523",304093966
+"514",2008,"Utah","Oral Cavity and Pharynx","7.9","167",2663029
+"515",2008,"Vermont","Oral Cavity and Pharynx","10.5","80",624151
+"516",2008,"Virginia","Oral Cavity and Pharynx","10.4","860",7833496
+"517",2008,"Washington","Oral Cavity and Pharynx","11.4","797",6562231
+"518",2008,"West Virginia","Oral Cavity and Pharynx","12.9","300",1840310
+"519",2008,"Wisconsin","Oral Cavity and Pharynx","10.9","693",5640996
+"520",2008,"Wyoming","Oral Cavity and Pharynx","13.7","83",546043
+"521",2009,"Alabama","Oral Cavity and Pharynx","12.7","688",4757938
+"522",2009,"Alaska","Oral Cavity and Pharynx","11.2","75",698895
+"523",2009,"Arizona","Oral Cavity and Pharynx","9","623",6343154
+"524",2009,"Arkansas","Oral Cavity and Pharynx","12.7","423",2896843
+"525",2009,"California","Oral Cavity and Pharynx","10.5","3873",36961229
+"526",2009,"Colorado","Oral Cavity and Pharynx","8.9","449",4972195
+"527",2009,"Connecticut","Oral Cavity and Pharynx","11","462",3561807
+"528",2009,"Delaware","Oral Cavity and Pharynx","12.8","135",891730
+"529",2009,"District of Columbia","Oral Cavity and Pharynx","11.5","66",592228
+"530",2009,"Florida","Oral Cavity and Pharynx","13.4","3173",18652644
+"531",2009,"Georgia","Oral Cavity and Pharynx","12.2","1165",9620846
+"532",2009,"Hawaii","Oral Cavity and Pharynx","12.3","196",1346717
+"533",2009,"Idaho","Oral Cavity and Pharynx","14.1","223",1554439
+"534",2009,"Illinois","Oral Cavity and Pharynx","11.7","1596",12796778
+"535",2009,"Indiana","Oral Cavity and Pharynx","11.2","788",6459325
+"536",2009,"Iowa","Oral Cavity and Pharynx","11.6","416",3032870
+"537",2009,"Kansas","Oral Cavity and Pharynx","11","336",2832704
+"538",2009,"Kentucky","Oral Cavity and Pharynx","13.7","677",4317074
+"539",2009,"Louisiana","Oral Cavity and Pharynx","13.2","635",4491648
+"540",2009,"Maine","Oral Cavity and Pharynx","12.2","206",1329590
+"541",2009,"Maryland","Oral Cavity and Pharynx","10.7","671",5730388
+"542",2009,"Massachusetts","Oral Cavity and Pharynx","11.7","876",6517613
+"543",2009,"Michigan","Oral Cavity and Pharynx","11.2","1268",9901591
+"544",2009,"Minnesota","Oral Cavity and Pharynx","12.2","696",5281203
+"545",2009,"Mississippi","Oral Cavity and Pharynx","13.9","440",2958774
+"546",2009,"Missouri","Oral Cavity and Pharynx","11.2","762",5961088
+"547",2009,"Montana","Oral Cavity and Pharynx","12.8","151",983982
+"548",2009,"Nebraska","Oral Cavity and Pharynx","10.9","220",1812683
+"549",2009,"Nevada","Oral Cavity and Pharynx","10.9","306",2684665
+"550",2009,"New Hampshire","Oral Cavity and Pharynx","11.5","178",1316102
+"551",2009,"New Jersey","Oral Cavity and Pharynx","10.8","1063",8755602
+"552",2009,"New Mexico","Oral Cavity and Pharynx","10.3","232",2036802
+"553",2009,"New York","Oral Cavity and Pharynx","10.6","2298",19307066
+"554",2009,"North Carolina","Oral Cavity and Pharynx","12.5","1298",9449566
+"555",2009,"North Dakota","Oral Cavity and Pharynx","12.2","94",664968
+"556",2009,"Ohio","Oral Cavity and Pharynx","10.1","1357",11528896
+"557",2009,"Oklahoma","Oral Cavity and Pharynx","12.7","524",3717572
+"558",2009,"Oregon","Oral Cavity and Pharynx","11","489",3808600
+"559",2009,"Pennsylvania","Oral Cavity and Pharynx","11.1","1704",12666858
+"560",2009,"Rhode Island","Oral Cavity and Pharynx","11.1","135",1053646
+"561",2009,"South Carolina","Oral Cavity and Pharynx","12.5","650",4589872
+"562",2009,"South Dakota","Oral Cavity and Pharynx","11.4","104",807067
+"563",2009,"Tennessee","Oral Cavity and Pharynx","12.5","894",6306019
+"564",2009,"Texas","Oral Cavity and Pharynx","10.7","2530",24801761
+"565",2009,"United States","Oral Cavity and Pharynx","11.3","38170",306771529
+"566",2009,"Utah","Oral Cavity and Pharynx","7.6","168",2723421
+"567",2009,"Vermont","Oral Cavity and Pharynx","12.3","97",624817
+"568",2009,"Virginia","Oral Cavity and Pharynx","10.5","897",7925937
+"569",2009,"Washington","Oral Cavity and Pharynx","11.6","840",6667426
+"570",2009,"West Virginia","Oral Cavity and Pharynx","10.1","239",1847775
+"571",2009,"Wisconsin","Oral Cavity and Pharynx","11.5","732",5669264
+"572",2009,"Wyoming","Oral Cavity and Pharynx","8.8","52",559851
+"573",2010,"Alabama","Oral Cavity and Pharynx","13.3","729",4785437
+"574",2010,"Alaska","Oral Cavity and Pharynx","10","71",713910
+"575",2010,"Arizona","Oral Cavity and Pharynx","8.7","614",6407172
+"576",2010,"Arkansas","Oral Cavity and Pharynx","12.8","428",2921964
+"577",2010,"California","Oral Cavity and Pharynx","10.5","3957",37319502
+"578",2010,"Colorado","Oral Cavity and Pharynx","11.2","580",5047349
+"579",2010,"Connecticut","Oral Cavity and Pharynx","10.4","440",3579114
+"580",2010,"Delaware","Oral Cavity and Pharynx","12.8","134",899593
+"581",2010,"District of Columbia","Oral Cavity and Pharynx","11.1","69",605226
+"582",2010,"Florida","Oral Cavity and Pharynx","13.6","3275",18845537
+"583",2010,"Georgia","Oral Cavity and Pharynx","11.6","1119",9711881
+"584",2010,"Hawaii","Oral Cavity and Pharynx","10.8","172",1363963
+"585",2010,"Idaho","Oral Cavity and Pharynx","13.9","230",1570746
+"586",2010,"Illinois","Oral Cavity and Pharynx","11.5","1599",12840503
+"587",2010,"Indiana","Oral Cavity and Pharynx","11.7","848",6490432
+"588",2010,"Iowa","Oral Cavity and Pharynx","12.7","452",3050745
+"589",2010,"Kansas","Oral Cavity and Pharynx","10.7","337",2858190
+"590",2010,"Kentucky","Oral Cavity and Pharynx","13.2","669",4348181
+"591",2010,"Louisiana","Oral Cavity and Pharynx","12.8","631",4544532
+"592",2010,"Maine","Oral Cavity and Pharynx","12.3","218",1327629
+"593",2010,"Maryland","Oral Cavity and Pharynx","10.7","673",5788645
+"594",2010,"Massachusetts","Oral Cavity and Pharynx","11.6","901",6566307
+"595",2010,"Michigan","Oral Cavity and Pharynx","11.8","1367",9877510
+"596",2010,"Minnesota","Oral Cavity and Pharynx","11.7","696",5310828
+"597",2010,"Mississippi","Oral Cavity and Pharynx","13.4","433",2970548
+"598",2010,"Missouri","Oral Cavity and Pharynx","11.5","795",5995974
+"599",2010,"Montana","Oral Cavity and Pharynx","12.2","146",990697
+"600",2010,"Nebraska","Oral Cavity and Pharynx","11.7","245",1829542
+"601",2010,"Nevada","Oral Cavity and Pharynx","10.1","294",2702405
+"602",2010,"New Hampshire","Oral Cavity and Pharynx","11.7","187",1316762
+"603",2010,"New Jersey","Oral Cavity and Pharynx","10.2","1031",8799446
+"604",2010,"New Mexico","Oral Cavity and Pharynx","9.2","219",2064552
+"605",2010,"New York","Oral Cavity and Pharynx","10.6","2325",19399878
+"606",2010,"North Carolina","Oral Cavity and Pharynx","11.6","1238",9574323
+"607",2010,"North Dakota","Oral Cavity and Pharynx","11","86",674715
+"608",2010,"Ohio","Oral Cavity and Pharynx","10.9","1472",11539336
+"609",2010,"Oklahoma","Oral Cavity and Pharynx","13.8","582",3759944
+"610",2010,"Oregon","Oral Cavity and Pharynx","9.8","451",3837491
+"611",2010,"Pennsylvania","Oral Cavity and Pharynx","11.4","1777",12711160
+"612",2010,"Rhode Island","Oral Cavity and Pharynx","13.9","173",1053959
+"613",2010,"South Carolina","Oral Cavity and Pharynx","12.2","656",4635649
+"614",2010,"South Dakota","Oral Cavity and Pharynx","11.9","112",816166
+"615",2010,"Tennessee","Oral Cavity and Pharynx","12.3","898",6355311
+"616",2010,"Texas","Oral Cavity and Pharynx","10.4","2499",25241971
+"617",2010,"United States","Oral Cavity and Pharynx","11.3","39053",309321666
+"618",2010,"Utah","Oral Cavity and Pharynx","7.7","177",2775332
+"619",2010,"Vermont","Oral Cavity and Pharynx","11.9","94",625879
+"620",2010,"Virginia","Oral Cavity and Pharynx","10.6","928",8023699
+"621",2010,"Washington","Oral Cavity and Pharynx","12","887",6742830
+"622",2010,"West Virginia","Oral Cavity and Pharynx","12.8","310",1854239
+"623",2010,"Wisconsin","Oral Cavity and Pharynx","11.5","757",5690475
+"624",2010,"Wyoming","Oral Cavity and Pharynx","11.3","72",564487
+"625",2011,"Alabama","Oral Cavity and Pharynx","12.5","691",4799069
+"626",2011,"Alaska","Oral Cavity and Pharynx","12.8","86",722128
+"627",2011,"Arizona","Oral Cavity and Pharynx","9.7","704",6472643
+"628",2011,"Arkansas","Oral Cavity and Pharynx","12.7","439",2940667
+"629",2011,"California","Oral Cavity and Pharynx","10.4","4019",37638369
+"630",2011,"Colorado","Oral Cavity and Pharynx","10.6","573",5121108
+"631",2011,"Connecticut","Oral Cavity and Pharynx","11.7","506",3588283
+"632",2011,"Delaware","Oral Cavity and Pharynx","12.1","135",907381
+"633",2011,"District of Columbia","Oral Cavity and Pharynx","12.2","74",619800
+"634",2011,"Florida","Oral Cavity and Pharynx","13.4","3301",19053237
+"635",2011,"Georgia","Oral Cavity and Pharynx","12.5","1253",9802431
+"636",2011,"Hawaii","Oral Cavity and Pharynx","10.1","166",1379329
+"637",2011,"Idaho","Oral Cavity and Pharynx","12.8","215",1583910
+"638",2011,"Illinois","Oral Cavity and Pharynx","12.3","1741",12867454
+"639",2011,"Indiana","Oral Cavity and Pharynx","11.9","874",6516528
+"640",2011,"Iowa","Oral Cavity and Pharynx","12.1","441",3066336
+"641",2011,"Kansas","Oral Cavity and Pharynx","11.4","357",2869225
+"642",2011,"Kentucky","Oral Cavity and Pharynx","14.4","728",4369821
+"643",2011,"Louisiana","Oral Cavity and Pharynx","13.1","658",4575625
+"644",2011,"Maine","Oral Cavity and Pharynx","11.6","208",1328284
+"645",2011,"Maryland","Oral Cavity and Pharynx","10.4","682",5839419
+"646",2011,"Massachusetts","Oral Cavity and Pharynx","11.6","903",6613583
+"647",2011,"Michigan","Oral Cavity and Pharynx","12.2","1434",9882412
+"648",2011,"Minnesota","Oral Cavity and Pharynx","12.5","749",5346143
+"649",2011,"Mississippi","Oral Cavity and Pharynx","13.2","437",2978731
+"650",2011,"Missouri","Oral Cavity and Pharynx","12.2","864",6010275
+"651",2011,"Montana","Oral Cavity and Pharynx","11.9","146",997316
+"652",2011,"Nebraska","Oral Cavity and Pharynx","12.2","250",1840672
+"653",2011,"Nevada","Oral Cavity and Pharynx","11.1","331",2712730
+"654",2011,"New Hampshire","Oral Cavity and Pharynx","12.7","203",1320202
+"655",2011,"New Jersey","Oral Cavity and Pharynx","10.5","1071",8828117
+"656",2011,"New Mexico","Oral Cavity and Pharynx","10.3","246",2080450
+"657",2011,"New York","Oral Cavity and Pharynx","10.6","2361",19499241
+"658",2011,"North Carolina","Oral Cavity and Pharynx","12.5","1366",9657592
+"659",2011,"North Dakota","Oral Cavity and Pharynx","11.9","92",685225
+"660",2011,"Ohio","Oral Cavity and Pharynx","11.3","1556",11544663
+"661",2011,"Oklahoma","Oral Cavity and Pharynx","12.4","527",3788379
+"662",2011,"Oregon","Oral Cavity and Pharynx","11.7","548",3872036
+"663",2011,"Pennsylvania","Oral Cavity and Pharynx","12","1878",12745815
+"664",2011,"Rhode Island","Oral Cavity and Pharynx","9.9","128",1053649
+"665",2011,"South Carolina","Oral Cavity and Pharynx","12.4","679",4671994
+"666",2011,"South Dakota","Oral Cavity and Pharynx","12.9","123",823579
+"667",2011,"Tennessee","Oral Cavity and Pharynx","12.2","900",6399291
+"668",2011,"Texas","Oral Cavity and Pharynx","11","2759",25645629
+"669",2011,"United States","Oral Cavity and Pharynx","11.6","40738",311556874
+"670",2011,"Utah","Oral Cavity and Pharynx","8.3","194",2814384
+"671",2011,"Vermont","Oral Cavity and Pharynx","9.5","77",627049
+"672",2011,"Virginia","Oral Cavity and Pharynx","10.4","939",8101155
+"673",2011,"Washington","Oral Cavity and Pharynx","11.6","887",6826627
+"674",2011,"West Virginia","Oral Cavity and Pharynx","12.7","308",1856301
+"675",2011,"Wisconsin","Oral Cavity and Pharynx","12.6","851",5705288
+"676",2011,"Wyoming","Oral Cavity and Pharynx","12.1","80",567299
+"677",2012,"Alabama","Oral Cavity and Pharynx","13.2","754",4815588
+"678",2012,"Alaska","Oral Cavity and Pharynx","14.5","100",730443
+"679",2012,"Arizona","Oral Cavity and Pharynx","8.6","645",6554978
+"680",2012,"Arkansas","Oral Cavity and Pharynx","12.5","430",2952164
+"681",2012,"California","Oral Cavity and Pharynx","10.5","4147",37948800
+"682",2012,"Colorado","Oral Cavity and Pharynx","9.7","539",5192647
+"683",2012,"Connecticut","Oral Cavity and Pharynx","11.6","516",3594547
+"684",2012,"Delaware","Oral Cavity and Pharynx","11.3","126",915179
+"685",2012,"District of Columbia","Oral Cavity and Pharynx","12.2","78",634924
+"686",2012,"Florida","Oral Cavity and Pharynx","13.6","3472",19297822
+"687",2012,"Georgia","Oral Cavity and Pharynx","12.2","1254",9901430
+"688",2012,"Hawaii","Oral Cavity and Pharynx","12.9","210",1394804
+"689",2012,"Idaho","Oral Cavity and Pharynx","11.7","203",1595324
+"690",2012,"Illinois","Oral Cavity and Pharynx","12","1732",12882510
+"691",2012,"Indiana","Oral Cavity and Pharynx","12.3","918",6537703
+"692",2012,"Iowa","Oral Cavity and Pharynx","12.2","455",3076190
+"693",2012,"Kansas","Oral Cavity and Pharynx","11.9","391",2885257
+"694",2012,"Kentucky","Oral Cavity and Pharynx","13.6","696",4386346
+"695",2012,"Louisiana","Oral Cavity and Pharynx","12.5","637",4600972
+"696",2012,"Maine","Oral Cavity and Pharynx","13","238",1327729
+"697",2012,"Maryland","Oral Cavity and Pharynx","10.8","728",5886992
+"698",2012,"Massachusetts","Oral Cavity and Pharynx","12.9","1019",6663005
+"699",2012,"Michigan","Oral Cavity and Pharynx","10.9","1320",9897145
+"700",2012,"Minnesota","Oral Cavity and Pharynx","11.4","708",5376643
+"701",2012,"Mississippi","Oral Cavity and Pharynx","12.5","420",2983816
+"702",2012,"Missouri","Oral Cavity and Pharynx","12.2","878",6024367
+"703",2012,"Montana","Oral Cavity and Pharynx","11.3","145",1003783
+"704",2012,"Nebraska","Oral Cavity and Pharynx","9.6","207",1853303
+"705",2012,"Nevada","Oral Cavity and Pharynx","9.8","302",2743996
+"706",2012,"New Hampshire","Oral Cavity and Pharynx","11.3","193",1324232
+"707",2012,"New Jersey","Oral Cavity and Pharynx","10.2","1072",8844942
+"708",2012,"New Mexico","Oral Cavity and Pharynx","9.5","232",2087309
+"709",2012,"New York","Oral Cavity and Pharynx","10.6","2398",19572932
+"710",2012,"North Carolina","Oral Cavity and Pharynx","12.8","1445",9749476
+"711",2012,"North Dakota","Oral Cavity and Pharynx","11","91",701176
+"712",2012,"Ohio","Oral Cavity and Pharynx","11.3","1577",11548923
+"713",2012,"Oklahoma","Oral Cavity and Pharynx","13.2","565",3818814
+"714",2012,"Oregon","Oral Cavity and Pharynx","12.3","576",3899001
+"715",2012,"Pennsylvania","Oral Cavity and Pharynx","11.8","1907",12767118
+"716",2012,"Rhode Island","Oral Cavity and Pharynx","11","136",1054621
+"717",2012,"South Carolina","Oral Cavity and Pharynx","12.7","719",4717354
+"718",2012,"South Dakota","Oral Cavity and Pharynx","12.2","122",833566
+"719",2012,"Tennessee","Oral Cavity and Pharynx","12.7","963",6453898
+"720",2012,"Texas","Oral Cavity and Pharynx","10.7","2757",26084481
+"721",2012,"United States","Oral Cavity and Pharynx","11.5","41369",313830990
+"722",2012,"Utah","Oral Cavity and Pharynx","9.7","229",2853375
+"723",2012,"Vermont","Oral Cavity and Pharynx","12.3","103",626090
+"724",2012,"Virginia","Oral Cavity and Pharynx","10.4","964",8185080
+"725",2012,"Washington","Oral Cavity and Pharynx","11.6","900",6897058
+"726",2012,"West Virginia","Oral Cavity and Pharynx","11.7","285",1856872
+"727",2012,"Wisconsin","Oral Cavity and Pharynx","11.8","805",5719960
+"728",2012,"Wyoming","Oral Cavity and Pharynx","9.4","62",576305
