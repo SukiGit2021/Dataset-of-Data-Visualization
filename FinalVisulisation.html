@@ -1,0 +1,1749 @@
+<!--FIT5147-->
+<!--PEIYU LIU 31153291-->
+
+<html>
+<!--set code format as utf-8-->
+<meta charset="utf-8">
+<style>
+    /* set styles for each div
+    here use fixed position to ensure my digrams are in right place.
+    if your screen size is bigger than me, you might see blank part on the right side */
+    
+    body {
+        width: 1200px;
+        height: auto;
+    }
+    
+    .welcome {
+        width: 1200px;
+        height: 150px;
+        position: absolute;
+        margin-top: 0;
+        border: 1px solid rgb(175, 173, 173);
+    }
+    
+    .Introduction {
+        width: 1200px;
+        height: 150px;
+        position: absolute;
+        margin-top: 150px;
+        border: 1px solid rgb(175, 173, 173);
+    }
+    
+    .question {
+        position: absolute;
+        width: 1200px;
+        height: 150px;
+        text-align: center;
+        margin-top: 300px;
+        border: 1px solid rgb(175, 173, 173);
+    }
+    /* change element style*/
+    
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.767);
+    }
+    
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.767);
+    }
+    
+    h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.767);
+    }
+    
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    
+    .line {
+        fill: none;
+        stroke: #FF1493;
+        opacity: 0.8;
+        stroke-width: 3px;
+    }
+    
+    .lineB {
+        fill: none;
+        stroke: #4169E1;
+        stroke-width: 3px;
+        opacity: 0.8;
+    }
+    
+    .overlay {
+        fill: none;
+        pointer-events: all;
+    }
+    
+    .focus circle {
+        fill: #f8ab03;
+        stroke: #f8ab03;
+        stroke-width: 3px;
+    }
+    
+    .focus .arrow {
+        fill: #cee25a;
+        stroke: #cee25a;
+        stroke-width: 2px;
+    }
+    
+    .myCircle:hover {
+        stroke: black;
+    }
+    
+    .hover-line {
+        stroke: #eb7a39;
+        stroke-width: 2px;
+        stroke-dasharray: 3, 3;
+    }
+    
+    .notify {
+        position: absolute;
+        width: 430px;
+        height: 25px;
+        color: rgb(72, 72, 73);
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        border: 1px outset;
+        background-color: #7FFFD4;
+        text-align: center;
+    }
+    
+    .cancers {
+        position: absolute;
+        width: 850px;
+        height: 850px;
+        margin-top: 1200px;
+    }
+    
+    .smokemap {
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        margin-top: 500px;
+    }
+    
+    .tooltip_container {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        margin-top: 530px;
+        margin-left: 800px;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: rgb(178, 209, 115) 3px outset;
+    }
+    
+    .explaination {
+        position: absolute;
+        width: 1200px;
+        height: 250px;
+        margin-top: 950px;
+        border: 1px solid rgb(161, 160, 160);
+    }
+    
+    .alcoholmap {
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        margin-top: 1250px;
+    }
+    
+    .anyalcohol {
+        position: absolute;
+        margin-top: 2000px;
+        width: 600px;
+        height: 600px;
+    }
+    
+    .bingealcohol {
+        position: absolute;
+        margin-top: 2000px;
+        width: 600px;
+        height: 600px;
+        margin-left: 600px;
+    }
+    
+    .tooltip_containerB {
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        margin-top: 1330px;
+        margin-left: 800px;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: rgb(146, 202, 224) 3px outset;
+    }
+    
+    .consumptioncontent {
+        position: absolute;
+        width: 650px;
+        height: 600px;
+        margin-top: 2850px;
+    }
+    
+    .consumptiondescription {
+        position: absolute;
+        width: 600px;
+        height: 200px;
+        margin-left: 600px;
+        margin-top: 3270px;
+        border: 1px outset rgb(175, 179, 180);
+    }
+    
+    .alcoholimage {
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 2950px;
+    }
+    
+    button {
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        color: rgb(54, 54, 54);
+        margin-left: 60px;
+        text-align: center;
+        margin-top: 70px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightblue;
+    }
+    
+    .femalecontent {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        margin-top: 3550px;
+        margin-left: 50px;
+    }
+    
+    .malecontent {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        margin-top: 3585px;
+        margin-left: 700px;
+    }
+    
+    .femalebreast {
+        position: absolute;
+        margin-top: 4280px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .lung {
+        position: absolute;
+        margin-top: 4280px;
+        margin-left: 600px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .liver {
+        position: absolute;
+        margin-top: 5380px;
+        width: 600px;
+        height: 600px;
+    }
+    
+    .oral {
+        position: absolute;
+        margin-top: 4820px;
+        margin-left: 600px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .thyroid {
+        position: absolute;
+        margin-top: 4820px;
+        width: 600px;
+        height: 500px;
+    }
+    
+    .axis {
+        font: 10px sans-serif;
+    }
+    /*set style of x axis and y axis */
+    
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #0c0c0c;
+        stroke-width: 1px;
+        shape-rendering: crispEdges;
+    }
+    
+    .thyroidtoolTip {
+        position: absolute;
+        display: none;
+        max-width: 200px;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        padding: 14px;
+        text-align: center;
+    }
+</style>
+
+<!-- import packages -->
+<script src="http://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
+
+<body>
+    <!-- design title div to introduce project title and student information -->
+    <div class="welcome" style="text-align:center;">
+        <div class="side-bar">
+            <h1 class="unit">FIT5147 Narrative Visualisation Project
+            </h1>
+            <h2 class="title">Changes in smoking and drinking rates in counties in each U.S. state and the number of related cancer cases from 2002 to 2012.
+            </h2>
+            <h3 class="author">Student: PEIYU LIU <br>Student Number: 31153291</h3>
+        </div>
+    </div>
+    <!-- project background -->
+    <div class="Introduction">
+        <h1 id="titleIntro" style="margin-left: 20px;"> Introduction</h1>
+        <p id="backgroundIntro" style="margin-left: 10px; margin-right: 10px;">Alcohol is becoming a popular primary drink when people do social or work activities. Alcohol abuse by people is a significant problem for personal health and public health.The poison in cigarette smoke weakens the body's immune system, making
+            it harder to kill cancer cells. The poison in tobacco smoke damages or alters the DNA of the cells, which, when damaged, begins to grow out of control and form cancerous tumours (CDC). Alcohol is also a primary carcinogen, and all types of
+            alcoholic beverages, including red and white wine, beer, cocktails and liquor, are associated with cancer. The more you drink, the higher your risk of cancer. </p>
+    </div>
+    <!-- project questions in short words, details see in report -->
+    <div class="question" style="text-align: center;">
+        <h3>Use your mouse to interact with charts, you will get answers of these questions:(project questions in short words, details see in report)</h3>
+        <p id="qA">How about smoking rate change in each state?</p>
+        <p id="qB">How about drinking rate change in each state?</p>
+        <p id="qC">Population of different cancers' canses changes.</p>
+    </div>
+    <!--smoke map-->
+    <!-- set notification to tell web user how to interact with digrams -->
+    <p class="notify" style="margin-top: 480px;">Show details below map when your mouse on map:</p>
+    <div class="smokemap">
+        <h2 style="text-align: center;">Smoking rate changs in the USA states(EX Alaska, Hawaii).</h2>
+        <!--set svg to be invoke in script function-->
+        <svg id="smokeCanvas" width="700" height="400"></svg>
+    </div>
+    <!-- tooltip container to store output information -->
+    <div class="tooltip_container">
+        <div id="tooltip" style="margin-top: 30px; margin-left: 10px;">DISPLAY DETAILS:<br>State Name and genders' smoking rates and 10 years trends:<br><br></div>
+    </div>
+    <!-- descriptions about digram and findings of result-->
+    <div class="explaination">
+        <h2 style="margin-left: 20px;">Women and men average smoking rate in each state.</h2>
+        <p style="font-size:18px;">Target: Analyze the changes in smoking rates in various states of the United States from 2002 to 2012. The research on smoking rate explores from two groups of male and female groups. Analyze the initial value of male and female smoking rates
+            and the final index after ten years. From this, we can infer the changing trend of male and female smoking rates in various states.
+            <br><br>Data distribution: Data is the group by males and females, and years are as time distribution, states in the USA as location distribution.
+            <br><br>Result analysis:-> From the initial smoking rate of male and female groups and the final smoking rate after ten years, the main characteristics can be: in all states of the United States, the smoking rate of male groups is always higher
+            than that of female groups. In most states and regions of the United States, the smoking rate among men has shown a downward trend. The smoking rate among women also shows a downward trend.
+        </p>
+    </div>
+    <p class="notify" style="margin-top: 1230px;">Show details below map when your mouse on map:</p>
+    <div class="alcoholmap">
+        <h2 style="text-align: center;">Alcohol drinking rate changes in the USA states(EX Alaska, Hawaii).</h2>
+        <svg id="alcoholCanvas" width="700" height="400"></svg>
+    </div>
+    <div class="explaination" style="margin-top:1700px">
+        <h2 style="margin-left: 20px;">Women and men average drinking rate in each state.</h2>
+        <p style="font-size:18px;">Target: Analyze the changes in drinking rates in various states of the United States from 2002 to 2012. The research on drinking rate explores from two groups of male and female groups. Analyze the initial value of male and female drinking rates
+            and the final index after ten years.
+            <br><br>Result analysis:-> Overall drinking trends in all U.S. states from 2002 to 2012. The gender groups with the state as the parameter and the average drinking rate of each sex were analyzed. From 2002 to 2012, the drinking rate was basically
+            flat and slightly higher in all U.S. states. In some areas, such as Kentucky and Tennessee, drinking rates have risen significantly, and women's rates have risen sharply in Kentucky. It can be inferred that the trend of increasing female drinking
+            rates has led to an increase in overall drinking rates in the region. The 10-year change in the drinking rate of women in the states is generally on the rise.
+        </p>
+    </div>
+    <div class="tooltip_containerB">
+        <div id="tooltipB" style="margin-top: 30px; margin-left: 10px;">DISPLAY DETAILS:<br>State Name and genders' alcohol drinking rates and 10 years trends:<br><br></div>
+    </div>
+    <h2 style="position:absolute ;margin-top: 1980px;margin-left: 70px;">Population ratio in any alcohol drinking.</h2>
+    <div class="anyalcohol">
+        <p class="notify" style="margin-left: 70px;">Click button to change gender group(Male or Female)</p>
+        <button onclick="updateAny('female')">Female any level</button>
+        <button onclick="updateAny('male')">Male any level</button>
+        <div id="anylevel"></div>
+    </div>
+    <h2 style="position:absolute ;margin-top: 2000px;margin-left:650px;">Ratio of binge drinking:</h2>
+    <p style="position: absolute;margin-top: 2050px;margin-left: 680px;">Blood alcohol concentration (BAC) to 0.08 g/dl or above. <br>Men consume 5 or more drinks or women consume 4 or more drinks in about 2 hours.</p>
+    <div class="bingealcohol">
+        <div id="bingelevel" style="margin-top: 110px;"></div>
+    </div>
+    <div class="explaination" style="margin-top:2580px">
+        <h2 style="margin-left: 20px;">Only show trend, details in below interaction digrams.</h2>
+        <p style="font-size:18px;">Target: Display the trends of alcohol using rates in the USA.
+            <br><br>Result analysis:-> The increasing female population in the USA use alcohol. The bar chart represents a growing trend. The drinking male population is kept related flat. Not a noticeable change. But always than 50% of the male group
+            will drink alcohol, which is much more than the female group. Males are still the leading group who is drinking alcohol.<br> <br>For male and female groups, intemperate Alcoholism is increasing a little. Males group are much more than females.
+        </p>
+    </div>
+    <div class="consumptioncontent">
+        <h2 style="margin-left: 20px;">Average alcohol consumption(milliliter (ml.)) in the USA each year.</h2>
+        <p class="notify" style="margin-left: 70px;">Click button to change gender group(Male or Female)</p>
+        <button onclick="update('var1')">Male consumption</button>
+        <button onclick="update('var2')">Female consumption</button>
+        <div id="fluidconsumption"></div>
+    </div>
+    <div class="alcoholimage">
+        <img src="alcoholimage.jpg" style="width: 600px; height: 300px;">
+    </div>
+    <div class="consumptiondescription">
+        <p style="font-size:20px;">Alcohol affects everyone. How it affects you depends on how much you drink, your health, your age and other factors. Drinking too much can lead to harmful short-term and long-term effects. It can affect your physical and mental health, your job,
+            your finances, your family and your community.</p>
+        <p>Refernce:https://www.health.gov.au/health-topics/alcohol/about-alcohol/what-are-the-effects-of-alcohol
+        </p>
+
+    </div>
+    <p class="notify" style="margin-top: 3530px; margin-left: 350px;width: 500px;">Show consumption values when mouse on line(milliliter):</p>
+    <p style="position: absolute;margin-top: 3570px;margin-left: 500px;text-align: center;width: 230px;height: 20px;border: 1px solid black;">Move mouse on line to see value</p>
+    <div class="femalecontent">
+        <p class="notify" style="margin-top:60px ;font-size: 14px;">Female alcohol consumption in USA of each year.</p>
+        <svg id="femalecon" width="500" height="300" style="margin-top: 80px;"></svg>
+    </div>
+    <div class="malecontent">
+        <p class="notify" style="margin-top: 30px; font-size: 14px;">Male alcohol consumption in USA of each year.</p>
+        <svg id="malecon" width="500" height="300" style="margin-top: 50px;"></svg>
+    </div>
+    <div class="explaination" style="margin-top:3950px">
+        <p style="font-size: 20px;">DESCRIPTION:</p>
+        <p style="font-size: 16px;">Result analysis:-><br> The diagram shows the trend of alcohol consumption in the USA each year. Females' alcohol consumption is not even fluctuating. In a long period, alcohol consumption is much higher than in 2002 begin. But the conclusion is
+            a flat trend from 1294 to 1289 millilitres.
+            <br><br>For males, in 2007,2008,2009, alcohol consumption is increasing obviously. One reason is 2007. The United States has a financial crisis, a sub-prime crisis. Some entrepreneurial capitalists went bankrupt and began to drink heavily.
+            <br><br>Observing value on-axis, alcohol consumption of males is much higher than females. Males are still the leading group who use alcohol.
+        </p>
+
+    </div>
+    <h2 style="position:absolute ;margin-top:4250px; margin-left:30px;font-size: 30px;">Cancer Cases Analysis.</h2>
+    <!-- <p class="notify" style="margin-top: 4350px; margin-left: 350px;">Show exact value when your mouse on dot:</p> -->
+
+    <div class="liver">
+        <p class="notify" style="position:relative">Liver cancer cases</p>
+        <div id="livercancer"></div>
+
+    </div>
+    <div class="femalebreast">
+        <p class="notify" style="position:relative">Female breast cancer cases</p>
+        <p style="position:relative; text-align: center;margin-left: 100px;border: 1px solid black; width: 210px;height: 15px;">Move mouse on dot to see value</p>
+        <div id="breastcancer"></div>
+    </div>
+    <div class="lung">
+        <p class="notify" style="position:relative">Lung cancer cases</p>
+        <p style="position:relative; text-align: center;margin-left: 100px;border: 1px solid black; width: 210px;height: 15px;">
+            Move mouse on dot to see value</p>
+        <div id="lungcancer"></div>
+    </div>
+    <div class="oral">
+        <p class="notify" style="position: relative;">Oral cancer cases</p>
+        <p style="position:relative; text-align: center;margin-left: 100px;border: 1px solid black; width: 210px;height: 15px;">
+            Move mouse on bar to see value</p>
+        <svg id="oralcancer" width="460" height="440"></svg>
+    </div>
+    <div class="thyroid">
+        <p class="notify" style="position: relative;">Thyroid cancer cases</p>
+        <p style="position:relative; text-align: center;margin-left: 100px;border: 1px solid black; width: 210px;height: 15px;">
+            Move mouse on bar to see value</p>
+        <svg id="thyroidcancer" width="460" height="440"></svg>
+    </div>
+    <div class="explaination" style="margin-top:5400px; width: 600px; height: 600px;margin-left: 600px;">
+        <p style="font-size:20px;">DESCRIPTION:</p>
+        <p style="font-size:20px;">Breast, liver, lung, oral, and thyroid cancers are closely related to alcohol and tobacco, and cancer is positively correlated with carcinogens.
+            <br><br>The more carcinogens people consume, the greater they are at risk of cancer.
+            <br>The higher tobacco and alcohol use, the higher the incidence of cancer.<br>
+            <br>By importing various types of cancer data, the group was grouped by time distribution and cancer population.
+            <br>The number of breast, liver, lung, oral and thyroid cancer cases has increased significantly year by year.
+            <br><br>In particular, lung cancer patients, oral cancer patients, thyroid cancer patients increased dramatically.
+            <br>Cases of breast cancer are also on the rise, which is linked to an increasing number of women drinking and smoking.<br>
+            <br>One of the reasons may be the increase in drinking and smoking rates.</p>
+    </div>
+</body>
+<script type="text/javascript">
+    // Use geojson file(contains all states' latitude and longitude information) to draw use map.
+    // Add tooltip and mouseevents to realise interaction.
+    // invoke key to return related values I wanted. And display these value on tooltip.
+    // reference: 
+    //  map: https://www.d3-graph-gallery.com/graph/choropleth_hover_effect.html
+    //  add tooltips: https://stackoverflow.com/questions/20070919/adding-tooltip-in-d3-js-map
+    /*Smoking Map*/
+    //  choose svg that I created before on div
+    var smokesvg = d3.select("#smokeCanvas"),
+        smokewidth = +smokesvg.attr("width"),
+        smokeheight = +smokesvg.attr("height");
+    // use geo function to set map and projection
+    var smokepath = d3.geoPath();
+    var smokeprojection = d3.geoMercator()
+        //set map scale
+        .scale(70)
+        .center([0, 20])
+        .translate([smokewidth / 2, smokeheight / 2]);
+    // set map color
+    var smokedata = d3.map();
+    var smokecolorScale = d3.scaleThreshold()
+        .domain([0, 50])
+        .range(["yellow", "rgb(178, 209, 115)"]);
+    // select tooltip that I created before and add text in my tooltip
+    var smoketext = d3.select("#tooltip").append("text")
+        .attr("class", "tooltip")
+        .style("opacity", .7);
+    // Load external data
+    d3.queue()
+        // load my geojson data
+        .defer(d3.json, "https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/us-states_smoke.geojson")
+        // load my format data
+        .defer(d3.csv, "https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/geojsonformat.csv", function(d) {
+            smokedata.set(d.code, +d.pop);
+        })
+        .await(ready);
+    // use loaded data to draw usa map and divide each state by style.
+    // invoke loade data to return information on tooltip
+    function ready(error, smoketopo) {
+        let mouseOver = function(d) {
+            console.log(d.id)
+            d3.selectAll(".Country")
+                .transition()
+                .duration(0)
+                .style("opacity", .5)
+                // add line around each state
+            d3.select(this)
+                .transition()
+                .duration(0)
+                .style("opacity", 1)
+                .style("stroke", "white")
+            smoketext.transition()
+                .duration(0)
+                .style("opacity", 1)
+                // improve tooltip user experience
+                .style("top", (event.Y - 20) + "px")
+                .style("left", (event.X + 20) + "px")
+                // set tooltip format when user do mouseevent
+            smoketext.html("Values mean percentage %" + "<br>" + "-> State Name:   [ " + d.properties.name + " ]; " + "<br>" + "<br>" +
+                    "-> Earliest females  smoking rate:   [ " + d.values.femaleBegin + " ]; " + "<br>" +
+                    "-> Earliest males smoking rate:   [ " + d.values.maleBegin + " ]; " + "<br>" + "<br>" +
+                    "-> Last females  smoking rate:   [ " + d.values.femaleLast + " ]; " + "<br>" +
+                    "-> Last males smoking rate:   [ " + d.values.maleLast + " ]; " + "<br>" + "<br>" +
+                    "-> female smoking rate changes from 2002 to 2012:   [ " + d.values.femaleTrend + " ]; " + "<br>" +
+                    "-> male smoking rate changes from 2002 to 2012:   [ " + d.values.maleTrend + " ]. ")
+                .attr("class", "tooltip")
+        }
+
+        // create mouseevent interaction
+        let mouseLeave = function(d) {
+            d3.selectAll(".Country")
+                .transition()
+                .duration(200)
+                .style("opacity", 1)
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke", "white")
+            smoketext.transition()
+                .duration(200)
+                .style("opacity", 0)
+        }
+
+        // Draw the map
+        smokesvg.append("g")
+            .selectAll("path")
+            .data(smoketopo.features)
+            .enter()
+            .append("path")
+            // draw each state
+            .attr("d", d3.geoPath()
+                .projection(smokeprojection.fitSize([smokewidth, smokeheight], smoketopo))
+            )
+            // set the color of each state
+            // https://stackoverflow.com/questions/37524487/fill-map-with-color-d3-js
+            .attr("fill", function(d) {
+                d.total = smokedata.get(d.id) || 0;
+                return smokecolorScale(d.total);
+            })
+            .style("stroke", "white")
+            .attr("class", function(d) {
+                return "Country"
+            })
+            .style("opacity", .8)
+            .on("mouseover", mouseOver)
+            .on("mouseleave", mouseLeave)
+    };
+
+    // Use geojson file(contains all states' latitude and longitude information) to draw use map.
+    // Add tooltip and mouseevents to realise interaction.
+    // invoke key to return related values I wanted. And display these value on tooltip.
+    // reference: 
+    //  map: https://www.d3-graph-gallery.com/graph/choropleth_hover_effect.html
+    //  add tooltips: https://stackoverflow.com/questions/20070919/adding-tooltip-in-d3-js-map
+    /*Alochol Map*/
+    //  choose svg that I created before on div
+    var alcoholsvg = d3.select("#alcoholCanvas"),
+        alcoholwidth = +alcoholsvg.attr("width"),
+        alcoholheight = +alcoholsvg.attr("height");
+    // use geo function to set map and projection
+    var alcoholpath = d3.geoPath();
+    var alcoholprojection = d3.geoMercator()
+        .scale(70)
+        .center([0, 20])
+        .translate([alcoholwidth / 2, alcoholheight / 2]);
+    // set map color
+    var alcoholdata = d3.map();
+    var alcoholcolorScale = d3.scaleThreshold()
+        .domain([0, 100])
+        .range(["yellow", "steelblue"]);
+    // select tooltip that I created before and add text in my tooltip
+    var alcoholtext = d3.select("#tooltipB").append("text")
+        .attr("class", "tooltip")
+        .style("opacity", .7);
+    // Load external data and boot
+    d3.queue()
+        // load my geojson data
+        .defer(d3.json, "https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/us-states_alcohol.geojson")
+        // load my format data
+        .defer(d3.csv, "https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/geojsonformat.csv", function(d) {
+            alcoholdata.set(d.code, +d.pop);
+        })
+        .await(readyA);
+    // use loaded data to draw usa map and divide each state by style.
+    // invoke loade data to return information on tooltip
+    function readyA(error, alcoholtopo) {
+        let mouseOver = function(d) {
+                console.log(d.id)
+                d3.selectAll(".Country")
+                    .transition()
+                    .duration(0)
+                    .style("opacity", .5)
+                    // add line around each state
+                d3.select(this)
+                    .transition()
+                    .duration(0)
+                    .style("opacity", 1)
+                    .style("stroke", "white")
+                alcoholtext.transition()
+                    .duration(0)
+                    .style("opacity", 1)
+                    // improve tooltip user experience
+                    .style("top", (event.Y - 20) + "px")
+                    .style("left", (event.X + 20) + "px")
+                    // set tooltip format when user do mouseevent
+                alcoholtext.html("Values mean percentage %" + "<br>" + "-> State Name:   [ " + d.properties.name + " ]; " + "<br>" + "<br>" +
+                        "-> Females alcohol drinking rate changes:   [ " + d.values.femaleTrend + " ]; " + "<br>" +
+                        "-> Males alcohol drinking rate changes:   [ " + d.values.maleTrend + " ]; " + "<br>" + "<br>" +
+                        "-> No sexes alcohol drinking rate changes:   [ " + d.values.sexesTrend + " ]. ")
+                    .attr("class", "tooltip")
+            }
+            // create mouseevent interaction
+        let mouseLeave = function(d) {
+            d3.selectAll(".Country")
+                .transition()
+                .duration(200)
+                .style("opacity", 1)
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke", "white")
+            alcoholtext.transition()
+                .duration(200)
+                .style("opacity", 0)
+        }
+
+        // Draw the map
+        alcoholsvg.append("g")
+            .selectAll("path")
+            .data(alcoholtopo.features)
+            .enter()
+            .append("path")
+            // draw each state
+            .attr("d", d3.geoPath()
+                .projection(alcoholprojection.fitSize([alcoholwidth, alcoholheight], alcoholtopo))
+            )
+            // set the color of each state
+            // https://stackoverflow.com/questions/37524487/fill-map-with-color-d3-js
+            .attr("fill", function(d) {
+                d.total = alcoholdata.get(d.id) || 0;
+                return alcoholcolorScale(d.total);
+            })
+            .style("stroke", "white")
+            .attr("class", function(d) {
+                return "Country"
+            })
+            .style("opacity", .8)
+            .on("mouseover", mouseOver)
+            .on("mouseleave", mouseLeave)
+    };
+
+
+    /*any alcohol drinking*/
+    /*referecne: 
+    bar chart with selection: https://www.d3-graph-gallery.com/graph/barplot_button_data_simple.html */
+    // set the dimensions and margins of the graph
+    //set styles
+    var anylevelmargin = {
+            top: 30,
+            right: 30,
+            bottom: 70,
+            left: 60
+        },
+        anylevelwidth = 560 - anylevelmargin.left - anylevelmargin.right,
+        anylevelheight = 500 - anylevelmargin.top - anylevelmargin.bottom;
+
+    // select div that i created before and append svg on this div
+    var anylevelsvg = d3.select("#anylevel")
+        .append("svg")
+        .attr("width", anylevelwidth + anylevelmargin.left + anylevelmargin.right)
+        .attr("height", anylevelheight + anylevelmargin.top + anylevelmargin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + anylevelmargin.left + "," + anylevelmargin.top + ")");
+
+    // set X axis scale
+    var anylevelx = d3.scaleBand()
+        .range([0, anylevelwidth])
+        .padding(0.2);
+    // add x xis index 
+    var anylevelxAxis = anylevelsvg.append("g")
+        .attr("transform", "translate(0," + anylevelheight + ")")
+
+    //set Y axis
+    var anylevely = d3.scaleLinear()
+        .range([anylevelheight, 0]);
+    // add y xis index
+    var anylevelyAxis = anylevelsvg.append("g")
+
+
+    // create function to load data and draw interaction digram
+    function updateAny(selectedVar) {
+
+        // load data from my git
+        d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/anyboth_final_d3.csv", function(data) {
+
+            // set x axis domain by year from loaded data
+            anylevelx.domain(data.map(function(d) {
+                    return d.year;
+                }))
+                // set interaction style 
+            anylevelxAxis.transition().duration(1000).call(d3.axisBottom(anylevelx))
+
+            // set y axis domain by loaded data
+            anylevely.domain([0, d3.max(data, function(d) {
+                return +d[selectedVar]
+            })]);
+            // set interaction style 
+            anylevelyAxis.transition().duration(1000).call(d3.axisLeft(anylevely));
+
+            // use data value to map bar chart
+            var anylevelu = anylevelsvg.selectAll("rect")
+                .data(data)
+
+            // set bars
+            anylevelu
+                .enter()
+                .append("rect")
+                .merge(anylevelu)
+                .transition()
+                .duration(1000)
+                // x axis is time distribution
+                .attr("x", function(d) {
+                    return anylevelx(d.year);
+                })
+                // y axis is value distribution
+                .attr("y", function(d) {
+                    return anylevely(d[selectedVar]);
+                })
+                .attr("width", anylevelx.bandwidth())
+                .attr("height", function(d) {
+                    return anylevelheight - anylevely(d[selectedVar]);
+                })
+                .attr("fill", "#6495ED")
+        })
+
+    }
+
+    // change variables to show bar interaction
+    updateAny('female');
+
+    /*binge alcohol use
+    Reference:
+    line chart: https://www.d3-graph-gallery.com/graph/line_basic.html
+    multiple line chart: https://bl.ocks.org/d3noob/4db972df5d7efc7d611255d1cc6f3c4f
+    */
+    // set the dimensions and margins of the graph
+    var bingemargin = {
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 50
+        },
+        bingewidth = 600 - bingemargin.left - bingemargin.right,
+        bingeheight = 450 - bingemargin.top - bingemargin.bottom;
+
+
+    // set x axis range and y axis range
+    var bingex = d3.scaleLinear().range([0, bingewidth]);
+    var bingey = d3.scaleLinear().range([bingeheight, 0]);
+
+
+    // define the first line
+    var bingevalueline = d3.line()
+        .x(function(d) {
+            return bingex(d.date);
+        })
+        .y(function(d) {
+            return bingey(d.close);
+        });
+
+    // define the second line
+    var bingevalueline2 = d3.line()
+        .x(function(d) {
+            return bingex(d.date);
+        })
+        .y(function(d) {
+            return bingey(d.open);
+        });
+
+    // select the div that i created before and append svg on this div to show digram
+    var bingesvg = d3.select("#bingelevel").append("svg")
+        .attr("width", bingewidth + bingemargin.left + bingemargin.right)
+        .attr("height", bingeheight + bingemargin.top + bingemargin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + bingemargin.left + "," + bingemargin.top + ")");
+
+    // load data
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/bingeboth_final_d3.csv", function(error, bingedata) {
+        if (error) throw error;
+
+        // format the data
+        // return data, year, variable1: female, variable 2: male
+        bingedata.forEach(function(d) {
+            d.date = d.year;
+            d.close = +d.female;
+            d.open = +d.male;
+        });
+
+        // set x and y range
+        bingex.domain([2002, 2012]);
+        bingey.domain([0, 30]);
+
+        // add first line path.
+        bingesvg.append("path")
+            .data([bingedata])
+            .attr("class", "line")
+            .style("stroke", "#FF1493")
+            .attr("d", bingevalueline);
+
+
+        // Add second line path.
+        bingesvg.append("path")
+            .data([bingedata])
+            .attr("class", "line")
+            .style("stroke", "#4169E1")
+            .attr("d", bingevalueline2);
+
+        // Add the X Axis
+        bingesvg.append("g")
+            .attr("transform", "translate(0," + bingeheight + ")")
+            .call(d3.axisBottom(bingex));
+
+        // Add the Y Axis
+        bingesvg.append("g")
+            .call(d3.axisLeft(bingey));
+
+        // set circle style 
+        bingesvg.append("circle").attr("cx", 350).attr("cy", 0).attr("r", 6).style("fill", "#4169E1")
+        bingesvg.append("circle").attr("cx", 350).attr("cy", 25).attr("r", 6).style("fill", "#FF1493")
+            // set male and female label 
+        bingesvg.append("text").attr("x", 360).attr("y", 6).text("Male").style("font-size", "15px")
+        bingesvg.append("text").attr("x", 360).attr("y", 30).text("Female").style("font-size", "15px")
+    });
+
+    /*alcohol consumption fluiding
+    reference： https://www.d3-graph-gallery.com/graph/lollipop_button_data_csv.html
+    */
+    // set svg attributes
+    var fluidmargin = {
+            top: 30,
+            right: 30,
+            bottom: 70,
+            left: 60
+        },
+        fluidwidth = 600 - fluidmargin.left - fluidmargin.right,
+        fluidheight = 540 - fluidmargin.top - fluidmargin.bottom;
+
+    // select div that i created before and append svg on div to display diagram
+    var fluidsvg = d3.select("#fluidconsumption")
+        .append("svg")
+        .attr("width", fluidwidth + fluidmargin.left + fluidmargin.right)
+        .attr("height", fluidheight + fluidmargin.top + fluidmargin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + fluidmargin.left + "," + fluidmargin.top + ")");
+
+    //set x axis
+    var fluidx = d3.scaleBand()
+        .range([0, fluidwidth])
+        .padding(1);
+    var fluidxAxis = fluidsvg.append("g")
+        .attr("transform", "translate(0," + fluidheight + ")")
+
+    //set y axis
+    var fluidy = d3.scaleLinear()
+        .range([fluidheight, 0]);
+    var fluidyAxis = fluidsvg.append("g")
+        .attr("class", "myYaxis")
+
+
+    // function to load data and use data to draw diagram
+    function update(fluidselectedVar) {
+
+        // load data from csv file
+        d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/alcoholconsumption_d3.csv", function(data) {
+
+            // X axis
+            fluidx.domain(data.map(function(d) {
+                    return d.group;
+                }))
+                // set x axis style
+            fluidxAxis.transition().duration(1000).call(d3.axisBottom(fluidx))
+
+            // set Y axis
+            fluidy.domain([0, d3.max(data, function(d) {
+                return +d[fluidselectedVar]
+            })]);
+            fluidyAxis.transition().duration(1000).call(d3.axisLeft(fluidy));
+
+            // draw diagram
+            var fluidj = fluidsvg.selectAll(".myLine")
+                .data(data)
+                // update lines
+                // add line after dot
+            fluidj
+                .enter()
+                .append("line")
+                .attr("class", "myLine")
+                .merge(fluidj)
+                .transition()
+                .duration(1000)
+                // use data['group'] to match line place
+                .attr("x1", function(d) {
+                    console.log(fluidx(d.group));
+                    return fluidx(d.group);
+                })
+                .attr("x2", function(d) {
+                    return fluidx(d.group);
+                })
+                // use data value to match line height
+                .attr("y1", fluidy(0))
+                .attr("y2", function(d) {
+                    return fluidy(d[fluidselectedVar]);
+                })
+                //set style
+                .attr("stroke", "#69b3a2")
+
+
+            // draw circle
+            var fluidu = fluidsvg.selectAll("circle")
+                .data(data)
+                //add circle to line
+            fluidu
+                .enter()
+                .append("circle")
+                .merge(fluidu)
+                .transition()
+                .duration(1000)
+                // use data['group'] to draw circle
+                .attr("cx", function(d) {
+                    return fluidx(d.group);
+                })
+                // use data value to draw circle
+                .attr("cy", function(d) {
+                    return fluidy(d[fluidselectedVar]);
+                })
+                //set circle size and color
+                .attr("r", 8)
+                .attr("fill", "#69b3a2");
+        })
+
+    }
+
+    // selection to change diagram using different variables
+    update('var1');
+
+
+    /*alcohol consumption-female
+    reference: https://bl.ocks.org/Qizly/8f6ba236b79d9bb03a80
+    line chart with tooltip to show value
+    */
+    // select div that i create before
+    var femaleconsvg = d3.select("#femalecon"),
+        // set svg margin size
+        femaleconmargin = {
+            top: 20,
+            right: 100,
+            bottom: 30,
+            left: 80
+        },
+        // set svg size
+        femaleconwidth = +femaleconsvg.attr("width") - femaleconmargin.left - femaleconmargin.right,
+        femaleconheight = +femaleconsvg.attr("height") - femaleconmargin.top - femaleconmargin.bottom;
+
+    //reformat time value in my data
+    var femaleconparseTime = d3.timeParse("%Y")
+        // i only need year format
+    femaleconbisectDate = d3.bisector(function(d) {
+        return d.year;
+    }).left;
+
+    // set ranges of x aixs and y axis
+    var femaleconx = d3.scaleTime().range([0, femaleconwidth]);
+    var femalecony = d3.scaleLinear().range([femaleconheight, 0]);
+
+    // use data value to match line place
+    var femaleconline = d3.line()
+        .x(function(d) {
+            return femaleconx(d.year);
+        })
+        .y(function(d) {
+            return femalecony(d.value);
+        });
+
+    var femalecong = femaleconsvg.append("g")
+        .attr("transform", "translate(" + femaleconmargin.left + "," + femaleconmargin.top + ")");
+
+    // load data from csv file
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/femaledrink_d3.csv", function(error, data) {
+        if (error) throw error;
+
+        // loop to get each data in my file
+        data.forEach(function(d) {
+            d.year = femaleconparseTime(d.year);
+            d.value = +d.value;
+        });
+        // set domain of x axis
+        femaleconx.domain(d3.extent(data, function(d) {
+            return d.year;
+        }));
+        // set domain of y axis
+        femalecony.domain([d3.min(data, function(d) {
+            return d.value;
+        }) / 1.005, d3.max(data, function(d) {
+            return d.value;
+        }) * 1.005]);
+
+        femalecong.append("g")
+            .attr("transform", "translate(0," + femaleconheight + ")")
+            .call(d3.axisBottom(femaleconx))
+
+
+        femalecong.append("g")
+            // invoke instances x and y i created before, add real value and format to instances
+            .call(d3.axisLeft(femalecony).ticks(11).tickFormat(function(d) {
+                return parseInt(d);
+            }))
+            // set text styles
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -60)
+            .attr("font-size", 13)
+            .attr("dy", ".71em")
+            .attr("font-family", "Times New Roman")
+            .style("text-anchor", "end")
+            .attr("fill", "black")
+            .text("Female alcohol consumption in USA of each year");
+        // append line on digram
+        femalecong.append("path")
+            .datum(data)
+            .attr("class", "line")
+            .attr("d", femaleconline);
+
+        var focus = femalecong.append("g")
+            .attr("class", "focus")
+            .style("display", "none");
+        // append support line when mouse hover on digram
+        focus.append("line")
+            .attr("class", "x-hover-line hover-line")
+            .attr("y1", 0)
+            .attr("y2", femaleconheight);
+
+        focus.append("line")
+            .attr("x1", femaleconwidth)
+            .attr("x2", femaleconwidth);
+
+        focus.append("circle")
+            .attr("r", 5.5);
+        //set text style
+        focus.append("text")
+            .attr("x", 15)
+            .attr("dy", ".31em");
+
+        // append interaction digram
+        femaleconsvg.append("rect")
+            .attr("transform", "translate(" + femaleconmargin.left + "," + femaleconmargin.top + ")")
+            .attr("class", "overlay")
+            .attr("width", femaleconwidth)
+            .attr("height", femaleconheight)
+            //set mouse events, when mouse over and mouse out, return  default style
+            .on("mouseover", function() {
+                focus.style("display", null);
+            })
+            .on("mouseout", function() {
+                focus.style("display", "none");
+            })
+            // when mouse move  show values 
+            .on("mousemove", mousemove);
+
+        // customise mousemove function
+        function mousemove() {
+            var x0 = femaleconx.invert(d3.mouse(this)[0]),
+                i = femaleconbisectDate(data, x0, 1),
+                d0 = data[i - 1],
+                d1 = data[i],
+                // if in x axis, if the behind year is bigger than before year, change place
+                d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+            // display info to user.
+            focus.attr("transform", "translate(" + femaleconx(d.year) + "," + femalecony(d.value) + ")");
+            focus.select("text").text(function() {
+                return d.value;
+            });
+            // when mousemove show value
+            focus.select(".x-hover-line").attr("y2", femaleconheight - femalecony(d.value));
+            focus.select(".y-hover-line").attr("x2", femaleconwidth + femaleconwidth);
+        }
+    });
+
+    /*alcohol consumption-male
+    reference: https://bl.ocks.org/Qizly/8f6ba236b79d9bb03a80
+    line chart with tooltip to show value*/
+    // select div that i create before
+    var maleconsvg = d3.select("#malecon"),
+        maleconmargin = {
+            top: 20,
+            right: 100,
+            bottom: 30,
+            left: 80
+        },
+        // set svg size
+        maleconwidth = +maleconsvg.attr("width") - maleconmargin.left - maleconmargin.right,
+        maleconheight = +maleconsvg.attr("height") - maleconmargin.top - maleconmargin.bottom;
+
+    //reformat time value in my data
+    var maleconparseTime = d3.timeParse("%Y")
+        // i only need year format
+    maleconbisectDate = d3.bisector(function(d) {
+        return d.year;
+    }).left;
+
+    // set ranges of x aixs and y axis
+    var maleconx = d3.scaleTime().range([0, maleconwidth]);
+    var malecony = d3.scaleLinear().range([maleconheight, 0]);
+    // use data value to match line place
+    var maleconline = d3.line()
+        .x(function(d) {
+            return maleconx(d.year);
+        })
+        .y(function(d) {
+            return malecony(d.value);
+        });
+
+    var malecong = maleconsvg.append("g")
+        .attr("transform", "translate(" + maleconmargin.left + "," + maleconmargin.top + ")");
+    // load data from csv file
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/maledrink_d3.csv", function(error, data) {
+        if (error) throw error;
+        // loop to get each data in my file
+        data.forEach(function(d) {
+            d.year = maleconparseTime(d.year);
+            d.value = +d.value;
+        });
+        // set domain of x axis
+        maleconx.domain(d3.extent(data, function(d) {
+            return d.year;
+        }));
+        // set domain of y axis
+        malecony.domain([d3.min(data, function(d) {
+            return d.value;
+        }) / 1.005, d3.max(data, function(d) {
+            return d.value;
+        }) * 1.005]);
+        // invoke instances x and y i created before, add real value and format to instances
+        malecong.append("g")
+            .attr("transform", "translate(0," + maleconheight + ")")
+            .call(d3.axisBottom(maleconx))
+
+        malecong.append("g")
+            .call(d3.axisLeft(malecony).ticks(11).tickFormat(function(d) {
+                return parseInt(d);
+            }))
+            // set text styles
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -60)
+            .attr("font-size", 13)
+            .attr("dy", ".71em")
+            .attr("font-family", "Times New Roman")
+            .style("text-anchor", "end")
+            .attr("fill", "black")
+            .text("Male alcohol consumption in USA of each year");
+        // append line on digram
+        malecong.append("path")
+            .datum(data)
+            .attr("class", "lineB")
+            .attr("d", maleconline);
+
+        var focus = malecong.append("g")
+            .attr("class", "focus")
+            .style("display", "none");
+        // append support line when mouse hover on digram
+        focus.append("line")
+            .attr("class", "x-hover-line hover-line")
+            .attr("y1", 0)
+            .attr("y2", maleconheight);
+
+        focus.append("line")
+            .attr("x1", maleconwidth)
+            .attr("x2", maleconwidth);
+
+        focus.append("circle")
+            .attr("r", 5.5);
+        //set text style
+        focus.append("text")
+            .attr("x", 15)
+            .attr("dy", ".31em");
+        // append interaction digram
+        maleconsvg.append("rect")
+            .attr("transform", "translate(" + maleconmargin.left + "," + maleconmargin.top + ")")
+            .attr("class", "overlay")
+            .attr("width", maleconwidth)
+            .attr("height", maleconheight)
+            //set mouse events, when mouse over and mouse out, return  default style
+            .on("mouseover", function() {
+                focus.style("display", null);
+            })
+            .on("mouseout", function() {
+                focus.style("display", "none");
+            })
+            // when mouse move  show values 
+            .on("mousemove", mousemove);
+        // customise mousemove function
+        function mousemove() {
+            var x0 = maleconx.invert(d3.mouse(this)[0]),
+                i = maleconbisectDate(data, x0, 1),
+                d0 = data[i - 1],
+                d1 = data[i],
+                // if in x axis, if the behind year is bigger than before year, change place
+                d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+            // display info to user.
+            focus.attr("transform", "translate(" + maleconx(d.year) + "," + malecony(d.value) + ")");
+            focus.select("text").text(function() {
+                return d.value;
+            });
+            focus.select(".x-hover-line").attr("y2", maleconheight - malecony(d.value));
+            focus.select(".y-hover-line").attr("x2", maleconwidth + maleconwidth);
+        }
+    });
+
+
+    /*liver cancer
+    reference: bar chart http://bl.ocks.org/dbuezas/9306799
+    add text on bar chart https://stackoverflow.com/questions/41870977/append-text-to-grouped-bar-chart-in-d3js-v4
+    */
+    // set margin style
+    var cancermargin = {
+            top: 130,
+            right: 130,
+            bottom: 130,
+            left: 130
+        },
+        cancerwidth = 300,
+        cancerheight = 300,
+        cancerinnerRadius = 30,
+        cancerouterRadius = Math.min(300, 300) / 2; // set outerRadius 
+
+    // append the svg object
+    var cancersvg = d3.select("#livercancer")
+        .append("svg")
+        .attr("width", cancerwidth + cancermargin.left + cancermargin.right)
+        .attr("height", cancerheight + cancermargin.top + cancermargin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + (cancerwidth / 2 + cancermargin.left) + "," + (cancerheight / 2 + cancermargin.top) + ")");
+
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/liver_d3_final_d3.csv", function(data) {
+
+        // Scales
+        var x = d3.scaleBand()
+            .range([0, 2 * Math.PI]) //  reference: bar chart http://bl.ocks.org/dbuezas/9306799
+            //X axis goes from 0 to 2pi = all around the circle. If I stop at 1Pi, it will be around a half circle
+            .align(0) // This does nothing
+            .domain(data.map(function(d) {
+                return d.cancer;
+            })); // The domain of the X axis is the list of states.
+        var y = d3.scaleRadial()
+            .range([cancerinnerRadius, cancerouterRadius]) //reference: bar chart http://bl.ocks.org/dbuezas/9306799
+            // Domain will be define later.
+            .domain([0, 627661980]);
+
+        // append bars
+        cancersvg.append("g")
+            .selectAll("path")
+            .data(data)
+            .enter()
+            .append("path")
+            // fill and set color
+            .attr("fill", "#5fc2b6")
+            .attr("d", d3.arc() // reference: bar chart http://bl.ocks.org/dbuezas/9306799 
+                // imagine your doing a part of a donut plot
+                .innerRadius(cancerinnerRadius)
+                // outerradius is according to value 
+                .outerRadius(function(d) {
+                    return y(d['Value']);
+                })
+                .startAngle(function(d) {
+                    return x(d.cancer);
+                })
+                .endAngle(function(d) {
+                    return x(d.cancer) + x.bandwidth();
+                })
+                .padAngle(0.02)
+                .padRadius(cancerinnerRadius))
+
+        // append label on bar chart
+        cancersvg.append("g")
+            .selectAll("g")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("text-anchor", function(d) {
+                // reference: bar chart http://bl.ocks.org/dbuezas/9306799 draw bar chart set bandwidth
+                return (x(d.cancer) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "end" : "start";
+            })
+            .attr("transform", function(d) {
+                // reference: bar chart http://bl.ocks.org/dbuezas/9306799 draw bar chart set bandwidth
+                return "rotate(" + ((x(d.cancer) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")" + "translate(" + (y(d['Value']) + 10) + ",0)";
+            })
+            // add text
+            .append("text")
+            .text(function(d) {
+                return (d.cancer + "[" + d.Value + "]")
+            })
+            .attr("transform", function(d) {
+                // reference: bar chart http://bl.ocks.org/dbuezas/9306799 draw bar chart set bandwidth
+                return (x(d.cancer) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)";
+            })
+            //set text style
+            .style("font-size", "12px")
+            .style("font-family", "New Times")
+            .attr("alignment-baseline", "middle")
+    });
+
+    /*lung cancer
+    reference: scatter digram with tooltip 
+    https://www.d3-graph-gallery.com/graph/scatter_tooltip.html
+    */
+    // set the margin style
+    var lungmargin = {
+            top: 10,
+            right: 30,
+            bottom: 30,
+            left: 100
+        },
+        lungwidth = 460 - lungmargin.left - lungmargin.right,
+        lungheight = 400 - lungmargin.top - lungmargin.bottom;
+
+    // append the svg  on div that i created before
+    var lungsvg = d3.select("#lungcancer")
+        .append("svg")
+        .attr("width", lungwidth + lungmargin.left + lungmargin.right)
+        .attr("height", lungheight + lungmargin.top + lungmargin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + lungmargin.left + "," + lungmargin.top + ")");
+
+    //load data from csv file
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/lung_d3_final_d3.csv", function(data) {
+
+        // Add X axis
+        var x = d3.scaleLinear()
+            .domain([2001, 2012])
+            .range([0, lungwidth]);
+        lungsvg.append("g")
+            .attr("transform", "translate(0," + lungheight + ")")
+            .call(d3.axisBottom(x));
+
+        // Add Y axis
+        var y = d3.scaleLinear()
+            .domain([300000000, 800000000])
+            .range([lungheight, 0]);
+        lungsvg.append("g")
+            .call(d3.axisLeft(y));
+
+        // select this svg and add tooltip on this svg
+        var tooltip = d3.select("#lungcancer")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            // set background color
+            .style("background-color", "#7FFFD4")
+            // set round border
+            .style("border", "inset")
+            .style("border-width", "1px")
+            .style("border-radius", "5px")
+            // set text style
+            .style("text-align", "center")
+            .style("width", "425px")
+            .style("margin-left", "50px")
+            .style("font-size", "18px")
+            .style("font-family", "Times New Roman")
+            // mouse events
+        var mouseover = function(d) {
+                // when mouse over, not show tooltips
+                tooltip
+                    .style("opacity", 1)
+            }
+            // when mouse move, show tooltips and return value
+        var mousemove = function(d) {
+            tooltip
+                .html("The exact value of lung cancer population is: " + d.Value)
+                // improve user experience
+                .style("left", (d3.event.pageX) + 10 + "px")
+                .style("top", (d3.event.pageY - 10) + "px");
+        }
+
+        //  when mouse leave, do not show tooltips
+        var mouseleave = function(d) {
+            tooltip
+                .transition()
+                .style("opacity", 0)
+        }
+
+        // add dot
+        lungsvg.append('g')
+            .selectAll("dot")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("cx", function(d) {
+                return x(d.cancer);
+            })
+            .attr("cy", function(d) {
+                return y(d.Value);
+            })
+            .attr("r", 8)
+            // invoke mouse events 
+            .style("fill", "#edd642")
+            .style("stroke", "white")
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+
+    })
+
+    /*oral cancer*/
+    /*
+    bar chart with tooltips:
+    reference: https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7
+    */
+    // load data from cdv
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/oral_d3_final_d3.csv", function(error, data) {
+        var oralsvg = d3.select("#oralcancer"),
+            // set margin style
+            oralmargin = {
+                top: 20,
+                right: 20,
+                bottom: 30,
+                left: 100
+            },
+            oralwidth = +oralsvg.attr("width") - oralmargin.left - oralmargin.right,
+            oralheight = +oralsvg.attr("height") - oralmargin.top - oralmargin.bottom;
+
+        // add tooltips 
+        var oraltooltip = d3.select("body").append("div").attr("class", "thyroidtoolTip");
+
+        //set x,y range and domain
+        var oralx = d3.scaleBand().rangeRound([0, oralwidth]).padding(0.1),
+            oraly = d3.scaleLinear().rangeRound([oralheight, 0]);
+
+        //set different color relative to value
+        var oralcolours = d3.scaleOrdinal()
+            .range(["#cc85cc", "#cc85cc", "#cc85cc", "#cc85cc", "#cc85cc", "#cc85cc", "#cc85cc", "#c74ec7", "#c74ec7", "#c74ec7", "#c74ec7"]);
+
+        var oralg = oralsvg.append("g")
+            .attr("transform", "translate(" + oralmargin.left + "," + oralmargin.top + ")");
+
+
+        if (error) throw error;
+
+        oralx.domain(data.map(function(d) {
+            return d.year;
+        }));
+        oraly.domain([0, d3.max(data, function(d) {
+            return d.value;
+        })]);
+
+        oralg.append("g")
+            .attr("class", "axis axis--x")
+            .attr("transform", "translate(0," + oralheight + ")")
+            .call(d3.axisBottom(oralx));
+
+        oralg.append("g")
+            .attr("class", "axis axis--y")
+            .call(d3.axisLeft(oraly))
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", "0.71em")
+            .attr("text-anchor", "end")
+            .attr("fill", "black");
+        // draw bars
+        oralg.selectAll(".bar")
+            .data(data)
+            .enter().append("rect")
+            .attr("x", function(d) {
+                return oralx(d.year);
+            })
+            .attr("y", function(d) {
+                return oraly(d.value);
+            })
+            .attr("width", oralx.bandwidth())
+            // height related to value 
+            .attr("height", function(d) {
+                return oralheight - oraly(d.value);
+            })
+            // x related to year
+            .attr("fill", function(d) {
+                return oralcolours(d.year);
+            })
+            // set mouse events
+            .on("mousemove", function(d) {
+                oraltooltip
+                    .style("left", d3.event.pageX + 10 + "px")
+                    .style("top", d3.event.pageY - 10 + "px")
+                    .style("display", "inline-block")
+                    .html((d.year) + "<br>" + "Oral cancer cases:" + (d.value));
+            })
+            .on("mouseout", function(d) {
+                oraltooltip.style("display", "none");
+            });
+    });
+    /*thyroid cancer*/
+    /*
+    bar chart with tooltips:
+    reference: https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7
+    */
+    // load data
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/thyroid_d3_final_d3.csv", function(error, data) {
+        var thyroidsvg = d3.select("#thyroidcancer"),
+            // set margin style
+            thyroidmargin = {
+                top: 20,
+                right: 20,
+                bottom: 30,
+                left: 100
+            },
+            thyroidwidth = +thyroidsvg.attr("width") - thyroidmargin.left - thyroidmargin.right,
+            thyroidheight = +thyroidsvg.attr("height") - thyroidmargin.top - thyroidmargin.bottom;
+
+        // set tooltips
+        var thyroidtooltip = d3.select("body").append("div").attr("class", "thyroidtoolTip");
+
+        //set x and y range, domain
+        var thyroidx = d3.scaleBand().rangeRound([0, thyroidwidth]).padding(0.1),
+            thyroidy = d3.scaleLinear().rangeRound([thyroidheight, 0]);
+
+        //set color style according to value
+        var thyroidcolours = d3.scaleOrdinal()
+            .range(["#78b5de", "#78b5de", "#78b5de", "#78b5de", "#78b5de", "#78b5de", "#78b5de", "#78b5de", "#4597cc", "#4597cc", "#4597cc"]);
+
+        var thyroidg = thyroidsvg.append("g")
+            .attr("transform", "translate(" + thyroidmargin.left + "," + thyroidmargin.top + ")");
+
+
+        if (error) throw error;
+
+        thyroidx.domain(data.map(function(d) {
+            return d.year;
+        }));
+        thyroidy.domain([0, d3.max(data, function(d) {
+            return d.value;
+        })]);
+
+        thyroidg.append("g")
+            .attr("class", "axis axis--x")
+            .attr("transform", "translate(0," + thyroidheight + ")")
+            .call(d3.axisBottom(thyroidx));
+
+        thyroidg.append("g")
+            .attr("class", "axis axis--y")
+            .call(d3.axisLeft(thyroidy))
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", "0.71em")
+            .attr("text-anchor", "end")
+            .attr("fill", "black");
+
+        thyroidg.selectAll(".bar")
+            .data(data)
+            .enter().append("rect")
+            .attr("x", function(d) {
+                return thyroidx(d.year);
+            })
+            .attr("y", function(d) {
+                return thyroidy(d.value);
+            })
+            .attr("width", thyroidx.bandwidth())
+            .attr("height", function(d) {
+                return thyroidheight - thyroidy(d.value);
+            })
+            .attr("fill", function(d) {
+                return thyroidcolours(d.year);
+            })
+            // set mouse event, mousemove show value and style
+            .on("mousemove", function(d) {
+                thyroidtooltip
+                    .style("left", d3.event.pageX + 10 + "px")
+                    .style("top", d3.event.pageY - 10 + "px")
+                    .style("display", "inline-block")
+                    .html((d.year) + "<br>" + "Thyroid cancer cases:" + (d.value));
+            })
+            .on("mouseout", function(d) {
+                thyroidtooltip.style("display", "none");
+            });
+    });
+
+
+    /*female breast cancer
+    reference: line chat with dot and tooltip
+    https://bl.ocks.org/wnghdcjfe/6377d75c963e8f841609a7bf6d3d0c74
+    */
+    // set the dimensions and margins of the graph
+    var breastmargin = {
+            top: 10,
+            right: 30,
+            bottom: 30,
+            left: 100
+        },
+        breastwidth = 460 - breastmargin.left - breastmargin.right,
+        breastheight = 400 - breastmargin.top - breastmargin.bottom;
+
+    // append the svg object to the body of the page
+    var breastsvg = d3.select("#breastcancer")
+        .append("svg")
+        .attr("width", breastwidth + breastmargin.left + breastmargin.right)
+        .attr("height", breastheight + breastmargin.top + breastmargin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + breastmargin.left + "," + breastmargin.top + ")");
+
+    // load data
+    d3.csv("https://raw.githubusercontent.com/SukiGit2021/FIT5147_dataset/main/breast_d3_final_d3.csv",
+
+        //read csv and store data
+        function(d) {
+            return {
+                date: d.cancer,
+                value: d.Value
+            }
+        },
+
+        // use data to draw diagram
+        function(data) {
+
+            // set x range and format
+            var x = d3.scaleLinear()
+                .domain([2001, 2012])
+                .range([0, breastwidth]);
+            breastsvg.append("g")
+                .attr("transform", "translate(0," + breastheight + ")")
+                .call(d3.axisBottom(x));
+
+            //set y range and format
+            var y = d3.scaleLinear()
+                .domain([8000, 418913186])
+                .range([breastheight, 0]);
+            breastsvg.append("g")
+                .call(d3.axisLeft(y));
+
+            // add line 
+            breastsvg.append("path")
+                .datum(data)
+                .attr("fill", "none")
+                .attr("stroke", "black")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .curve(d3.curveBasis)
+                    // reference: line chat with dot and tooltip
+                    // https: //bl.ocks.org/wnghdcjfe/6377d75c963e8f841609a7bf6d3d0c74
+                    //Just add that to have a curve instead of segments
+                    .x(function(d) {
+                        return x(d.date)
+                    })
+                    .y(function(d) {
+                        return y(d.value)
+                    })
+                )
+
+            // create a tooltip and set tooltip style
+            var breastTooltip = d3.select("#breastcancer")
+                .append("div")
+                .style("opacity", 0)
+                .attr("class", "tooltip")
+                .style("background-color", "#7FFFD4")
+                .style("border", "inset")
+                .style("border-width", "2px")
+                .style("border-radius", "5px")
+                .style("text-align", "center")
+                .style("width", "425px")
+                .style("margin-left", "50px")
+                .style("font-size", "18px")
+                .style("font-family", "Times New Roman")
+
+            // mouse events to show interaction
+            var breastmouseover = function(d) {
+                breastTooltip
+                    .style("opacity", 1)
+            }
+            var breastmousemove = function(d) {
+                breastTooltip
+                    .html("The exact value of female breast cancer population is: " + d.value)
+                    .style("left", (d3.mouse(this)[0] + 70) + "px")
+                    .style("top", (d3.mouse(this)[1]) + "px")
+            }
+            var breastmouseleave = function(d) {
+                breastTooltip
+                    .style("opacity", 0)
+            }
+
+            // add circle on line
+            breastsvg
+                .append("g")
+                .selectAll("dot")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("class", "myCircle")
+                .attr("cx", function(d) {
+                    return x(d.date)
+                })
+                .attr("cy", function(d) {
+                    return y(d.value)
+                })
+                .attr("r", 8)
+                .attr("stroke", "#69b3a2")
+                .attr("stroke-width", 3)
+                .attr("fill", "white")
+                // invoke mouse event
+                .on("mouseover", breastmouseover)
+                .on("mousemove", breastmousemove)
+                .on("mouseleave", breastmouseleave)
+        })
+</script>
+
+</html>
+</script>
+
+</html>
+
+</html>
